@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42d4c6b30a826834fad3a9ffb8213de0
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206589
+  packageName: 'Abilities: Game Creator 2'
+  packageVersion: 1.6.0
+  assetPath: Assets/Plugins/DaimahouGames/Online Documentation.txt
+  uploadId: 655873
