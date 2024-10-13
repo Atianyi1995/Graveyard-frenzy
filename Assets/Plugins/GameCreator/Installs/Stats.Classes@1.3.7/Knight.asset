@@ -44,6 +44,7 @@ MonoBehaviour:
     - rid: 5178594725893242927
     - rid: 5178594725893242928
     - rid: 368439964521464606
+    - rid: 368440050435227869
   references:
     version: 2
     RefIds:
@@ -56,7 +57,20 @@ MonoBehaviour:
         m_Stat: {fileID: 11400000, guid: 956ca2e8ac7a93a479d2edc188d5c7b8, type: 2}
         m_ChangeBase:
           m_IsEnabled: 0
-          m_Value: 100
+          m_Value: 0
+        m_ChangeFormula:
+          m_IsEnabled: 0
+          m_Value: {fileID: 0}
+    - rid: 368440050435227869
+      type: {class: StatItem, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_IsHidden: 0
+        m_Stat: {fileID: 11400000, guid: 757481d70e86f7f4387bc2c11a80d91e, type: 2}
+        m_ChangeBase:
+          m_IsEnabled: 0
+          m_Value: 0
         m_ChangeFormula:
           m_IsEnabled: 0
           m_Value: {fileID: 0}

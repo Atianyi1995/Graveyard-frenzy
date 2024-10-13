@@ -1,0 +1,55 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/HYPLAY/Core/Editor/HyplayEditorStyles.uss?fileID=7433441132597879392&amp;guid=71577d7e3059f4c9b8eadf81e633834b&amp;type=3#HyplayEditorStyles" />
+    <ui:VisualElement name="Background" class="background-color" style="flex-grow: 1;">
+        <ui:VisualElement style="flex-grow: 0; height: 80px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+            <ui:VisualElement name="Header" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/HYPLAY/Core/Editor/image%20(4).png?fileID=2800000&amp;guid=26675e68a4f58449497a46b74eff5289&amp;type=3#image (4)&quot;); height: 40px; -unity-background-scale-mode: scale-to-fit; margin-top: 20px; margin-right: 20px; margin-bottom: 10px; margin-left: 20px; flex-shrink: 1; align-items: stretch; align-self: stretch; width: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="UserSettings" class="body" style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; background-color: rgba(217, 217, 217, 0.05); border-left-color: rgba(255, 255, 255, 0.1); border-right-color: rgba(255, 255, 255, 0.1); border-top-color: rgba(255, 255, 255, 0.1); border-bottom-color: rgba(255, 255, 255, 0.1); border-top-width: 1px; border-bottom-width: 1px;">
+            <ui:Label text="User Settings" name="UserSettingsLabel" style="-unity-text-align: upper-left; -unity-font-style: bold; margin-top: 10px;" />
+            <uie:PropertyField name="AccessToken" />
+            <uie:PropertyField name="DevToken" />
+            <uie:PropertyField name="ExpireTime" />
+            <uie:PropertyField name="UsePopup" />
+            <ui:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;">
+                <ui:Button text="Get Access Token" name="GetAccessToken" class="hyplay-button" />
+                <ui:Button text="Create New App" name="CreateApp" class="hyplay-button" />
+            </ui:VisualElement>
+            <ui:DropdownField name="CurrentAppDropdown" />
+        </ui:VisualElement>
+        <ui:VisualElement name="AppSettings" class="body" style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+            <ui:Label text="Current App" name="AppSettingsLabel" style="-unity-text-align: upper-left; -unity-font-style: bold; margin-top: 10px;" />
+            <ui:VisualElement name="AppContent" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement name="AppVisuals" style="flex-grow: 0; width: 75px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                    <ui:Label text="Icon" class="minor-text" />
+                    <ui:VisualElement name="AppIcon" class="image-editable" style="background-image: url(&quot;project://database/Assets/HYPLAY/Core/Editor/empty-chessboard.png?fileID=2800000&amp;guid=7866628b5157b4fcc96de3edc4a5a96f&amp;type=3#empty-chessboard&quot;);">
+                        <ui:Button text="Edit" name="EditAppIcon" class="image-edit" style="flex-grow: 1; flex-shrink: 1; margin-top: -1px; margin-right: -1px; margin-bottom: -1px; margin-left: -1px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); background-color: rgba(88, 88, 88, 0.89); font-size: 10px;" />
+                    </ui:VisualElement>
+                    <ui:Label text="Background" class="minor-text" />
+                    <ui:VisualElement name="AppBackground" class="image-editable" style="background-image: url(&quot;project://database/Assets/HYPLAY/Core/Editor/empty-chessboard.png?fileID=2800000&amp;guid=7866628b5157b4fcc96de3edc4a5a96f&amp;type=3#empty-chessboard&quot;);">
+                        <ui:Button text="Edit" name="EditAppBackground" class="image-edit" style="flex-grow: 1; flex-shrink: 1; margin-top: -1px; margin-right: -1px; margin-bottom: -1px; margin-left: -1px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); background-color: rgba(88, 88, 88, 0.89); font-size: 10px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 0; width: 10px;" />
+                <ui:VisualElement name="AppData" style="flex-grow: 1;">
+                    <ui:VisualElement style="flex-grow: 0.5;" />
+                    <uie:PropertyField name="AppName" />
+                    <uie:PropertyField name="AppDescription" />
+                    <uie:PropertyField name="NewURL" />
+                    <ui:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+                    <uie:PropertyField name="AppID" focusable="false" />
+                    <uie:PropertyField name="AppSecret" focusable="false" />
+                    <ui:Label name="AppStatus" />
+                    <ui:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+                    <ui:Button text="Create App" name="SubmitApp" class="hyplay-button" />
+                    <ui:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <uie:PropertyField name="AppURL" />
+            <ui:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+            <uie:PropertyField name="AppRedirectURIs" />
+            <ui:Button text="Update This App" name="UpdateApp" class="hyplay-button" />
+        </ui:VisualElement>
+        <ui:Label text="v1.0.6" enable-rich-text="false" style="-unity-text-align: lower-right; opacity: 0.5; flex-grow: 1; padding-left: 5px; padding-bottom: 5px; padding-right: 5px; padding-top: 5px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86356c65269e24441b830d0ca9ce5360, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  accessToken: user_at_VRNk-zSMlKJSM-yuQslM-neKq_oPaTExOGtRckmU_Y49KjeCvbl3DzCT4XOF1mMJ
+  appName: 
+  appDescription: 
+  appUrl: 
+  timeoutHours: 24
+  usePopup: 1
+  currentApp:
+    id: 6820a7b8-03ea-4f2c-840f-1374813d09fd
+    secretKey: app_sk_t1zNiZN4g0-vO_okvzRj74db8DWSsW376nsoV-0r2DsVbceNApMmnnTq9Yj6eVDO
+    name: Graveyard Frenzy
+    description: Defeat all the undead creatures
+    redirectUris:
+    - https://atianyi1995.github.io/GraveyardFrenzyWebBuild/
+    url: https://andrew-atianyi.itch.io
+    iconImageAsset:
+      id: 424769ea-da5a-4c3d-83e5-7165741ed1f1
+      cdnUrl: https://assets.hyplay.com/cc6a6bec-4174-48fc-9b7a-561bd1c08126/3e1188184091c157ef0482e393854750-1728805794223.png
+    backgroundImageAsset:
+      id: a7a59d99-7ceb-46a9-b1d8-c3efd2a1bd27
+      cdnUrl: https://assets.hyplay.com/cc6a6bec-4174-48fc-9b7a-561bd1c08126/197620e3f86b64f77826b3fda62b4dc3-1728478976314.jpg

@@ -28,7 +28,7 @@ MonoBehaviour:
   m_SortOrder: 0
   m_UniqueId:
     m_SerializedID:
-      m_String: a948bc18-2cd5-4c45-af54-74e3c1988e61
+      m_String: 28b9679d-c2d8-42ce-8ffd-4fd6a90f9a0c
   m_Tasks:
     rid: 3872144699144536112
   m_OnActivate:
@@ -55,7 +55,7 @@ MonoBehaviour:
     - rid: 3872144699144536108
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: Kill 15 Undead
+        m_Value: Kill 15 Skeletons
     - rid: 3872144699144536110
       type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -79,7 +79,7 @@ MonoBehaviour:
     - rid: 3872144699144536113
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: Kill 15 Undead
+        m_Value: Kill 15 Skeletons
     - rid: 3872144699144536114
       type: {class: Task, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
       data:

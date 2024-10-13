@@ -153,7 +153,8 @@ MonoBehaviour:
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 4340017107664372517
-      type: {class: ConditionGameObjectExists, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: ConditionGameObjectExists, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -162,7 +163,8 @@ MonoBehaviour:
           m_Property:
             rid: 4340017107664372520
     - rid: 4340017107664372520
-      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
       data:
         m_From:
           m_Property:
@@ -171,7 +173,8 @@ MonoBehaviour:
       type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 4340017107664372523
-      type: {class: ConditionMeleeCompareTimeLastBreak, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      type: {class: ConditionMeleeCompareTimeLastBreak, ns: GameCreator.Runtime.Melee,
+        asm: GameCreator.Runtime.Melee}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -187,7 +190,8 @@ MonoBehaviour:
       data:
         m_Value: 1
     - rid: 4340017107664372526
-      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
       data:
         m_From:
           m_Property:
@@ -196,7 +200,8 @@ MonoBehaviour:
       type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 4340017107664372529
-      type: {class: ConditionMathCompareDistance, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: ConditionMathCompareDistance, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -226,7 +231,8 @@ MonoBehaviour:
           m_Property:
             rid: 4340017107664372536
     - rid: 4340017107664372536
-      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
       data:
         m_From:
           m_Property:
@@ -235,7 +241,8 @@ MonoBehaviour:
       type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 4340017107664372539
-      type: {class: ConditionCharacterIsDead, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: ConditionCharacterIsDead, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -244,7 +251,8 @@ MonoBehaviour:
           m_Property:
             rid: 4340017107664372541
     - rid: 4340017107664372541
-      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
       data:
         m_From:
           m_Property:
@@ -277,7 +285,8 @@ MonoBehaviour:
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 4340017107664372546
-      type: {class: ConditionGameObjectExists, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: ConditionGameObjectExists, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -286,7 +295,8 @@ MonoBehaviour:
           m_Property:
             rid: 4340017107664372548
     - rid: 4340017107664372548
-      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
       data:
         m_From:
           m_Property:
@@ -295,7 +305,8 @@ MonoBehaviour:
       type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 4340017107664372551
-      type: {class: ConditionMeleeCompareTimeLastParry, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      type: {class: ConditionMeleeCompareTimeLastParry, ns: GameCreator.Runtime.Melee,
+        asm: GameCreator.Runtime.Melee}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -314,7 +325,8 @@ MonoBehaviour:
       data:
         m_Value: 1
     - rid: 4340017107664372554
-      type: {class: ConditionMathCompareDistance, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: ConditionMathCompareDistance, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -333,7 +345,7 @@ MonoBehaviour:
     - rid: 4340017107664372557
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 2
+        m_Value: 3
     - rid: 4340017107664372558
       type: {class: GetPositionSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -344,7 +356,8 @@ MonoBehaviour:
           m_Property:
             rid: 4340017107664372561
     - rid: 4340017107664372561
-      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
       data:
         m_From:
           m_Property:
@@ -376,7 +389,8 @@ MonoBehaviour:
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 4340017107664372566
-      type: {class: ConditionGameObjectExists, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: ConditionGameObjectExists, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -385,7 +399,8 @@ MonoBehaviour:
           m_Property:
             rid: 4340017107664372568
     - rid: 4340017107664372568
-      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
       data:
         m_From:
           m_Property:
@@ -394,7 +409,8 @@ MonoBehaviour:
       type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 4340017107664372571
-      type: {class: ConditionMathCompareDistance, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: ConditionMathCompareDistance, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -424,7 +440,8 @@ MonoBehaviour:
           m_Property:
             rid: 4340017107664372578
     - rid: 4340017107664372578
-      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
       data:
         m_From:
           m_Property:

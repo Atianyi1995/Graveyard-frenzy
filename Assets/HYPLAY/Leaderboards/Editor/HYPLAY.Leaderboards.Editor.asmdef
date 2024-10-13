@@ -1,0 +1,25 @@
+{
+    "name": "HYPLAY.Leaderboards.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a1696458fe4a84c8e9ca870baa4a6536",
+        "GUID:d4526066f996e4ceeb81998a06edaedd"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.nuget.newtonsoft-json",
+            "expression": "1.0.0",
+            "define": "NEWTONSOFT_JSON"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -23,19 +23,48 @@ MonoBehaviour:
     - rid: 7624061010851921934
   m_OnEnter:
     m_Instructions:
-      m_Instructions: []
+      m_Instructions:
+      - rid: 368440012107154193
   m_OnExit:
     m_Instructions:
       m_Instructions: []
   references:
     version: 2
     RefIds:
+    - rid: 368440012107154193
+      type: {class: InstructionStatsChangeAttribute, ns: GameCreator.Runtime.Stats,
+        asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 368440012107154194
+        m_Attribute:
+          m_Property:
+            rid: 368440012107154195
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 368440012107154196
+    - rid: 368440012107154194
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368440012107154195
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cfe33240515a4433805675bb87aac5b, type: 2}
+    - rid: 368440012107154196
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 10
     - rid: 7624061010851921933
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
     - rid: 7624061010851921934
       type: {class: ReactionItem, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data:
-        m_IsExpanded: 0
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_MinPower:

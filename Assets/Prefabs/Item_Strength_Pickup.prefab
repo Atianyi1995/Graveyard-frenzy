@@ -4923,7 +4923,7 @@ MonoBehaviour:
     - rid: 368439969332331287
       type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 100
+        m_Value: 10
     - rid: 4340017059695689846
       type: {class: InstructionStatsChangeAttribute, ns: GameCreator.Runtime.Stats,
         asm: GameCreator.Runtime.Stats}
@@ -4958,7 +4958,7 @@ MonoBehaviour:
     - rid: 5386062650796671108
       type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
       data:
-        m_Attribute: {fileID: 11400000, guid: 91d2170bac13a4ad4b1d40706769f29d, type: 2}
+        m_Attribute: {fileID: 11400000, guid: 4cfe33240515a4433805675bb87aac5b, type: 2}
 --- !u!1 &4475917184909393190
 GameObject:
   m_ObjectHideFlags: 0
