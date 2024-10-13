@@ -15,23 +15,29 @@ namespace HYPLAY.Demo
         [SerializeField] private HyplayLeaderboard.OrderBy orderBy;
         [SerializeField] private TextMeshProUGUI[] scoreText;
         [SerializeField] private TextMeshProUGUI myScore;
-        
+
+        public TextMeshProUGUI kills;
+        public Animator KillsAnim;
         private bool _pressed = false;
-        
-        private float _score = 0;
+        public GameObject Leaderboard;
+        public float _score = 0;
         
         private void Awake()
         {
-            HyplayBridge.LoggedIn += GetScores;
-            if (HyplayBridge.IsLoggedIn)
-                GetScores();
-            
-            if (leaderboard == null)
-                Debug.LogError("Please select a leaderboard to use");
+            _score = -1;
+            //HyplayBridge.LoggedIn += GetScores;
+            //if (HyplayBridge.IsLoggedIn)
+            //    GetScores();
+
+            //if (leaderboard == null)
+            //    Debug.LogError("Please select a leaderboard to use");
         }
         
         public async void SubmitScore()
         {
+            //if (Leaderboard != null)
+            //    Leaderboard.SetActive(true);
+
             if (leaderboard == null) return;
             var res = await leaderboard.PostScore(Mathf.RoundToInt(_score));
             if (res.Success)
@@ -41,9 +47,20 @@ namespace HYPLAY.Demo
             
             GetScores();
         }
-        
+        public void Get()
+        {
+            HyplayBridge.LoggedIn += GetScores;
+            if (HyplayBridge.IsLoggedIn)
+                GetScores();
+
+            if (leaderboard == null)
+                Debug.LogError("Please select a leaderboard to use");
+        }
         private async void GetScores()
         {
+            if(Leaderboard != null)
+            Leaderboard.SetActive(true);
+
             if (leaderboard == null) return;
             foreach (var text in scoreText)
                 text.gameObject.SetActive(false);
@@ -65,11 +82,32 @@ namespace HYPLAY.Demo
 
         private void Update()
         {
-            _score += Time.deltaTime * multiplier * (_pressed ? 1 : -1);
+            //_score += Time.deltaTime * multiplier * (_pressed ? 1 : -1);
+            //if (_score < 0)
+            //    _score = 0;
+            //else
+            //    myScore.text = $"current score: {_score:0.00}";
+
+            if(kills != null)
+            kills.text = _score.ToString();
+        }
+        public void AddScore()
+        {
+            _score += 1;
+        }
+        public void ShowKills()
+        {
+            KillsAnim.Play("Kills");
+        }
+        public void CheckScore()
+        {
+          
             if (_score < 0)
                 _score = 0;
             else
                 myScore.text = $"current score: {_score:0.00}";
+           
+           
         }
 
         public void OnPointerDown(PointerEventData eventData)

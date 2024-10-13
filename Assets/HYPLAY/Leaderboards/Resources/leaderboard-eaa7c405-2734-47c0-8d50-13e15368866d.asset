@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5430e3f481ef42cf94d3577880d201f2, type: 3}
+  m_Name: leaderboard-eaa7c405-2734-47c0-8d50-13e15368866d
+  m_EditorClassIdentifier: 
+  id: eaa7c405-2734-47c0-8d50-13e15368866d
+  name: Graveyard Frenzy Highscore
+  description: Top graveyard Frenzy Kills
+  secretKey: leaderboard_zv6Uu5KlX__n6dkjN0vHdpSghcsl5OYJAjdr_Rw6qHF0ML9syShKL1hgewQp6gUR

@@ -24,8 +24,8 @@ MonoBehaviour:
     name: Graveyard Frenzy
     description: Defeat all the undead creatures
     redirectUris:
-    - https://atianyi1995.github.io/GraveyardFrenzyWebBuild/
-    url: https://andrew-atianyi.itch.io
+    - https://html-classic.itch.zone/html/
+    url: https://atianyi1995.github.io/GraveyardFrenzyWebBuild/
     iconImageAsset:
       id: 424769ea-da5a-4c3d-83e5-7165741ed1f1
       cdnUrl: https://assets.hyplay.com/cc6a6bec-4174-48fc-9b7a-561bd1c08126/3e1188184091c157ef0482e393854750-1728805794223.png

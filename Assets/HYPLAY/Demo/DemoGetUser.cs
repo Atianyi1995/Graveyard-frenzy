@@ -23,8 +23,12 @@ namespace HYPLAY.Demo
 
         private async void OnLoggedIn()
         {
-            signInSplash.alpha = 0;
-            signInSplash.blocksRaycasts = false;
+            if(signInSplash != null)
+            {
+                signInSplash.alpha = 0;
+                signInSplash.blocksRaycasts = false;
+            }
+           
             var res = await HyplayBridge.GetUserAsync();
             if (res.Success)
                 text.text = $"Welcome {res.Data.Username}";
