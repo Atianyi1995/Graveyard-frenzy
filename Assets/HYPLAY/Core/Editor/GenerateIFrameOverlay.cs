@@ -20,10 +20,9 @@ namespace UnityEditor.Hyplay
                 string htmlContent = File.ReadAllText(indexPath);
                 var settings = Resources.Load<HyplaySettings>("Settings");
                 var appId = settings.Current.id;
-                var time = DateTimeOffset.Now + TimeSpan.FromHours(settings.TimeoutHours);
 
                 // Inject HTML for the overlay
-                string overlayHtml = @"
+                string overlayHtml = $@"
                 <div id='fullscreenOverlay' style='
                     display: none; 
                     position: fixed; 
@@ -39,7 +38,7 @@ namespace UnityEditor.Hyplay
                     <div style='height: 100%; display: flex; align-content: center; align-items: center; justify-content: center; flex-direction: column; font-family: sans-serif;'>
                         <div style='margin-top: 15%'>
                             <h1 id='play' style='width: 100%; cursor: pointer;'>Click To Play</h1>
-                            <p style='width: 100%; margin-top: 20px;'>or</p>
+                            <p id='or' style='width: 100%; margin-top: 20px;'>or</p>
                             <img id='signin' src='./StreamingAssets/signin.png' style='width: 350px; cursor: pointer;'>
                         </div>
                         <img src='./StreamingAssets/poweredby.png' style='width: 150px; margin-top: 50px;'>
@@ -50,7 +49,7 @@ namespace UnityEditor.Hyplay
                 // Inject JavaScript to control the overlay
                 string overlayScript = $@"
                 <script>
-                    if (self != top) {{
+                    if (self != top) {{ // in an iframe and there is no token in storage
                         document.getElementById('fullscreenOverlay').style.display = 'block';
                     }}
 
@@ -58,11 +57,16 @@ namespace UnityEditor.Hyplay
                         window.top.location = window.location.href;
                     }});
 
-                    document.getElementById('signin').addEventListener('click', function() {{
-                        var redirectUri = window.location.href;
-                        var url = 'https://hyplay.com/oauth/authorize/?appId=' + '{appId}' + '&chain=HYCHAIN&responseType=token' + '&redirectUri=' + redirectUri;
-                        window.top.location = url;
-                    }});
+                    if ({settings.SplashHasSignInButton.ToString().ToLower()}) {{
+                        document.getElementById('signin').addEventListener('click', function() {{
+                            var redirectUri = window.location.href;
+                            var url = 'https://hyplay.com/oauth/authorize/?appId=' + '{appId}' + '&chain=HYCHAIN&responseType=token' + '&redirectUri=' + redirectUri;
+                            window.top.location = url;
+                        }});
+                    }} else {{
+                        document.getElementById('signin').style.display = 'none';
+                        document.getElementById('or').style.display = 'none';
+                    }}
                 </script>
             ";
 

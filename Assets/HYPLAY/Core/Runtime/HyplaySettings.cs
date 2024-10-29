@@ -8,8 +8,6 @@ using UnityEngine.Networking;
 
 namespace HYPLAY.Core.Runtime
 {
-    // todo: handle cancelled/other errors https://api.wayfarer.games/hyplay-test/redirect.html?error=cancelled
-    
     public class HyplaySettings : ScriptableObject
     {
         #if UNITY_EDITOR
@@ -25,9 +23,10 @@ namespace HYPLAY.Core.Runtime
         private int timeoutHours = 24;
         public int TimeoutHours => timeoutHours;
 
-        [SerializeField, Tooltip("Use a popup window? If disabled, redirects the whole page")]
-        private bool usePopup = true;
-
+        [SerializeField, Tooltip("Should the splash screen have a sign-in button?")]
+        private bool splashHasSignInButton = true;
+        public bool SplashHasSignInButton => splashHasSignInButton;
+        
         [SerializeField] private HyplayApp currentApp;
         public HyplayApp Current => currentApp;
         
@@ -36,8 +35,6 @@ namespace HYPLAY.Core.Runtime
         #if UNITY_WEBGL
         [DllImport("__Internal")]
         private static extern void DoLoginRedirect(string appid, string expiry);
-        [DllImport("__Internal")]
-        private static extern void DoLoginPopup(string appid, string expiry);
         #endif
         
         public void SetCurrent(HyplayApp current)
@@ -55,13 +52,8 @@ namespace HYPLAY.Core.Runtime
             var time = DateTimeOffset.Now + TimeSpan.FromHours(timeoutHours);
             
             #if UNITY_WEBGL && !UNITY_EDITOR
-            if (usePopup)
-                DoLoginPopup(Current.id, $"&expiresAt={time.ToUnixTimeSeconds()}");
-            else
-                DoLoginRedirect(Current.id, $"&expiresAt={time.ToUnixTimeSeconds()}");
+            DoLoginRedirect(Current.id, $"&expiresAt={time.ToUnixTimeSeconds()}");
             #else
-            
-            
             #if !UNITY_EDITOR
             if (Application.platform != RuntimePlatform.Android && Application.platform != RuntimePlatform.IPhonePlayer)
             {
@@ -82,13 +74,8 @@ namespace HYPLAY.Core.Runtime
                 { "nonce", Guid.NewGuid() }
             };
 
-            #if UNITY_2022_1_OR_NEWER
             using var req = UnityWebRequest.Post($"https://api.hyplay.com/v1/sessions", HyplayJSON.Serialize(body), "application/json");
-            #else
-            using var req = UnityWebRequest.Post($"https://api.hyplay.com/v1/sessions", "");
-            HyplayJSON.SetData(ref req, HyplayJSON.Serialize(currentApp));
-            #endif
-            
+           
             req.SetRequestHeader("x-authorization", accessToken);
             await req.SendWebRequest();
 
@@ -96,7 +83,7 @@ namespace HYPLAY.Core.Runtime
 
             if (string.IsNullOrWhiteSpace(res.accessToken))
             {
-                Debug.LogError("No access token recieved, check your access token starts with user_at_ in the settings, and make sure you have an app set up.");
+                Debug.LogError("No access token received, check your access token starts with user_at_ in the settings, and make sure you have an app set up.");
                 return;
             }
             HyplayBridge.DeepLink($"myapp://token#token={res.accessToken}");
@@ -117,12 +104,8 @@ namespace HYPLAY.Core.Runtime
 
         public async void UpdateCurrent()
         {
-            #if UNITY_2022_1_OR_NEWER
             using var req = UnityWebRequest.Post($"https://api.hyplay.com/v1/apps/{currentApp.id}", HyplayJSON.Serialize(currentApp), "application/json");
-            #else
-            using var req = UnityWebRequest.Post($"https://api.hyplay.com/v1/apps/{currentApp.id}", "");
-            HyplayJSON.SetData(ref req, HyplayJSON.Serialize(currentApp));
-            #endif
+          
             req.method = "PATCH";
             
             req.SetRequestHeader("x-authorization", accessToken);
@@ -137,12 +120,8 @@ namespace HYPLAY.Core.Runtime
                 { "fileBase64", System.Convert.ToBase64String(data) }
             };
             
-            #if UNITY_2022_1_OR_NEWER
             using var req = UnityWebRequest.Post($"https://api.hyplay.com/v1/assets", HyplayJSON.Serialize(body), "application/json");
-            #else
-            using var req = UnityWebRequest.Post($"https://api.hyplay.com/v1/assets", "");
-            HyplayJSON.SetData(ref req, HyplayJSON.Serialize(body));
-            #endif
+           
             req.SetRequestHeader("x-authorization", accessToken);
             await req.SendWebRequest();
 

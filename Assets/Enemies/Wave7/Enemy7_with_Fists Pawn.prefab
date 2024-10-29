@@ -1,0 +1,4527 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &37577702681111035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2531697911535664580}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2531697911535664580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37577702681111035}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071077, y: 0.00028152892, z: 0.70710576, w: -0.0002815297}
+  m_LocalPosition: {x: -0.1399118, y: 0.002335643, z: -0.038250998}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3119099596278418558}
+  m_Father: {fileID: 3432235193889153001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &106031694929450756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4208111004109459437}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4208111004109459437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106031694929450756}
+  serializedVersion: 2
+  m_LocalRotation: {x: -8.961273e-10, y: -0.0000000036457628, z: -0.11640206, w: 0.9932022}
+  m_LocalPosition: {x: -0.028335951, y: 0, z: 0.000000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3564538564482878740}
+  m_Father: {fileID: 8764146824317923030}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &174506430720757231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3810033077183070592}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3810033077183070592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174506430720757231}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071077, y: 0.00028152892, z: -0.70710576, w: 0.0002815297}
+  m_LocalPosition: {x: -0.1399118, y: 0.0023354306, z: 0.038251}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4425399830345124830}
+  m_Father: {fileID: 3432235193889153001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &261160583410854919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547578047401515233}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547578047401515233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261160583410854919}
+  serializedVersion: 2
+  m_LocalRotation: {x: -9.2499175e-10, y: 1.0840788e-10, z: -0.11640207, w: 0.9932022}
+  m_LocalPosition: {x: -0.032580033, y: 0, z: -0.000000019073486}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5390470480138874099}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &366179536187266279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3648599193903792646}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3648599193903792646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366179536187266279}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00009218511, y: -0.01197649, z: -0.06004973, w: 0.9981235}
+  m_LocalPosition: {x: -0.39448705, y: 0.0000000047683715, z: -0.000000009536743}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8477745016709760300}
+  m_Father: {fileID: 1393711313568976928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &546899067088408233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8739150194346800928}
+  - component: {fileID: 917443386228574110}
+  m_Layer: 6
+  m_Name: SkeletonKnight_PBR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8739150194346800928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546899067088408233}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1428473087071621671}
+  - {fileID: 275706574960433811}
+  - {fileID: 7406847097231625682}
+  m_Father: {fileID: 3128870808293941579}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &917443386228574110
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546899067088408233}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 5bdb723f10fa9bd498f304f0a10f2ec4, type: 3}
+  m_Controller: {fileID: 9100000, guid: 0a4c70c9014fdf249937fb1c63926c01, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &575282540757771506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8446927806419292831}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8446927806419292831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575282540757771506}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.16201194e-10, y: 7.0576297e-12, z: 0.060624577, w: 0.99816066}
+  m_LocalPosition: {x: -0.49877298, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 32125434085077586}
+  m_Father: {fileID: 7801604283021611335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &667538118126016071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330987643031360833}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Toe02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &330987643031360833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667538118126016071}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.8789278e-24, y: -1.0329515e-12, z: -1.8189894e-12, w: 1}
+  m_LocalPosition: {x: -0.029782018, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 591959420797231929}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &699691809059239469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4113305122433339358}
+  - component: {fileID: 1482509394722093649}
+  m_Layer: 6
+  m_Name: Trigger_Follow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4113305122433339358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699691809059239469}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000035762784}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6760623608646873601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1482509394722093649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699691809059239469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 4340017173728854311
+  m_TriggerEvent:
+    rid: 4340017173728854266
+  references:
+    version: 2
+    RefIds:
+    - rid: 4340017173728854266
+      type: {class: EventOnStart, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173728854311
+      type: {class: InstructionCharacterNavigationFollowStart, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4340017173728854360
+        m_FollowTarget:
+          m_Property:
+            rid: 4340017173728854313
+        m_MinDistance:
+          m_Property:
+            rid: 4340017173728854314
+        m_MaxDistance:
+          m_Property:
+            rid: 4340017173728854315
+    - rid: 4340017173728854313
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173728854314
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1.5
+    - rid: 4340017173728854315
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 4
+    - rid: 4340017173728854360
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+--- !u!1 &758416955514703368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5427671248975407022}
+  - component: {fileID: 5294340273370052420}
+  - component: {fileID: 5655325086728381570}
+  m_Layer: 6
+  m_Name: SM_Helmet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5427671248975407022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758416955514703368}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7044092, y: -0.061835147, z: 0.7044092, w: -0.06157766}
+  m_LocalPosition: {x: -0.08778824, y: -0.0024324036, z: 0.000123291}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4989138841775281676}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5294340273370052420
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758416955514703368}
+  m_Mesh: {fileID: 4300004, guid: 5bdb723f10fa9bd498f304f0a10f2ec4, type: 3}
+--- !u!23 &5655325086728381570
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758416955514703368}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4bc44b26fb3a5dc479c53225a7af87e3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &932434445532228605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3500967564546346719}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3500967564546346719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932434445532228605}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0.116402015, w: 0.9932022}
+  m_LocalPosition: {x: -0.028335951, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3844310256200113741}
+  m_Father: {fileID: 8204403151753383801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &938301614039242514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5952016753882692779}
+  - component: {fileID: 8745854947138426882}
+  - component: {fileID: 1606712515996390568}
+  - component: {fileID: 1080266690377825796}
+  - component: {fileID: 4587304111806889794}
+  - component: {fileID: 4105593536526202108}
+  - component: {fileID: 8025287438621738732}
+  m_Layer: 6
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5952016753882692779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938301614039242514}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.00000035762784, z: -0, w: -1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3128870808293941579}
+  - {fileID: 588786663583523977}
+  m_Father: {fileID: 6760623608646873601}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &8745854947138426882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938301614039242514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48e4aa7a58d404413af1c9111cdcd3f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsPlayer: 0
+  m_Time:
+    m_UpdateTime: 0
+  m_Kernel:
+    rid: 4340017173305229342
+  m_InverseKinematics:
+    m_RigLayers:
+      m_Rigs:
+      - rid: 4340017173305229343
+      - rid: 4340017173305229344
+      - rid: 4340017173305229345
+  m_Footsteps:
+    m_Feet:
+    - rid: 4340017173305229346
+    - rid: 4340017173305229347
+    m_FootstepSounds:
+      m_SoundsAsset: {fileID: 11400000, guid: cc9a58db4035e493199624217f60c661, type: 2}
+  m_Ragdoll:
+    m_Ragdoll:
+      rid: 4340017173305229348
+  references:
+    version: 2
+    RefIds:
+    - rid: 4340017173305229342
+      type: {class: CharacterKernel, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Player:
+          rid: 4340017173305229349
+        m_Motion:
+          rid: 4340017173305229350
+        m_Driver:
+          rid: 4340017173305229351
+        m_Facing:
+          rid: 4340017173964259733
+        m_Animim:
+          rid: 4340017173305229353
+    - rid: 4340017173305229343
+      type: {class: RigLookTo, ns: GameCreator.Runtime.Characters.IK, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_TrackSpeed: 270
+        m_MaxAngle: 120
+        m_Sections:
+        - m_Bone: 8
+          m_Euler: {x: 0, y: 0, z: 0}
+          m_Weight: 1
+        - m_Bone: 9
+          m_Euler: {x: 0, y: 0, z: 0}
+          m_Weight: 3
+        - m_Bone: 10
+          m_Euler: {x: 0, y: 0, z: 0}
+          m_Weight: 3
+    - rid: 4340017173305229344
+      type: {class: RigFeetPlant, ns: GameCreator.Runtime.Characters.IK, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_FootOffset: 0
+        m_FootMask:
+          serializedVersion: 2
+          m_Bits: 4294967295
+        m_SmoothTime: 0.25
+    - rid: 4340017173305229345
+      type: {class: RigLean, ns: GameCreator.Runtime.Characters.IK, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_InclineSpine: 5
+        m_InclineLowerChest: 10
+        m_InclineUpperChest: 5
+        m_DeclineSpine: -10
+        m_DeclineLowerChest: -5
+        m_DeclineUpperChest: 5
+        m_RollSpine: 5
+        m_RollLowerChest: 5
+        m_RollUpperChest: 10
+    - rid: 4340017173305229346
+      type: {class: Footstep, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Bone:
+          m_Type: 1
+          m_Human: 5
+          m_Path: 
+    - rid: 4340017173305229347
+      type: {class: Footstep, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Bone:
+          m_Type: 1
+          m_Human: 6
+          m_Path: 
+    - rid: 4340017173305229348
+      type: {class: RagdollNone, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173305229349
+      type: {class: UnitPlayerDirectional, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsControllable: 1
+        m_InputMove:
+          m_Input:
+            rid: 4340017173305229354
+    - rid: 4340017173305229350
+      type: {class: UnitMotionController, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Interaction:
+          m_Radius: 2
+          m_Focus:
+            m_InteractionMode:
+              rid: 4340017173305229355
+        m_Speed: 4
+        m_Rotation:
+          m_IsEnabled: 1
+          m_Value: 1800
+        m_Mass: 80
+        m_Height: 2
+        m_Radius: 0.2
+        m_GravityUpwards: -9.81
+        m_GravityDownwards: -9.81
+        m_TerminalVelocity: -53
+        m_Acceleration:
+          m_UseAcceleration: 1
+          m_Acceleration: 10
+          m_Deceleration: 4
+        m_Jump:
+          m_CanJump: 1
+          m_AirJumps: 0
+          m_JumpForce: 5
+          m_JumpCooldown: 0.5
+        m_Dash:
+          m_InSuccession: 0
+          m_DashInAir: 0
+          m_Cooldown: 1
+    - rid: 4340017173305229351
+      type: {class: UnitDriverController, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_SkinWidth: 0.08
+        m_PushForce: 1
+        m_MaxSlope: 45
+        m_StepHeight: 0.3
+        m_Axonometry:
+          m_Axonometry:
+            rid: 4340017173305229356
+    - rid: 4340017173305229353
+      type: {class: UnitAnimimKinematic, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Position: {x: 0, y: 0, z: 0}
+        m_Rotation: {x: 0, y: 0, z: 0}
+        m_Scale: {x: 1, y: 1, z: 1}
+        m_SmoothTime: 0.5
+        m_Mannequin: {fileID: 3128870808293941579}
+        m_Animator: {fileID: 917443386228574110}
+        m_StartState: {fileID: 0}
+        m_Reaction: {fileID: 0}
+    - rid: 4340017173305229354
+      type: {class: InputValueVector2MotionPrimary, ns: GameCreator.Runtime.Common,
+        asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173305229355
+      type: {class: InteractionModeNearCharacter, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Offset: {x: 0, y: 0, z: 1}
+    - rid: 4340017173305229356
+      type: {class: AxonometryNone, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173964259733
+      type: {class: UnitFacingTarget, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Target:
+          m_Property:
+            rid: 4340017173964259758
+    - rid: 4340017173964259758
+      type: {class: GetGameObjectCharacterTarget, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_From:
+          m_Property:
+            rid: 4340017173964259807
+    - rid: 4340017173964259807
+      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+--- !u!114 &1606712515996390568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938301614039242514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88751453cb8e404c93571c5dbff86d8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Features: []
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &1080266690377825796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938301614039242514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c924eacff884626a5aa4c90cf311c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Class: {fileID: 11400000, guid: a0d0c7043d4df465881a4133859466fd, type: 2}
+  m_OverrideAttributes:
+    m_Keys:
+    - m_String: hp
+    - m_String: mp
+    - m_String: stamina
+    m_Values:
+    - m_IsExpanded: 0
+      m_ChangeStartPercent:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeStartPercent:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeStartPercent:
+        m_IsEnabled: 0
+        m_Value: 1
+  m_OverrideStats:
+    m_Keys:
+    - m_String: xp
+    - m_String: level
+    - m_String: constitution
+    - m_String: will
+    - m_String: strength
+    - m_String: dexterity
+    - m_String: wisdom
+    - m_String: charisma
+    - m_String: luck
+    - m_String: stat-kills
+    - m_String: current-stat-kills
+    m_Values:
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 1
+        m_Value: 5
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+--- !u!114 &4587304111806889794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938301614039242514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 368439960678171356
+    - rid: 368439959248437796
+    - rid: 368439992585552045
+    - rid: 368440072002077398
+    - rid: 368439962357203056
+    - rid: 368439962357203742
+    - rid: 368439962976911484
+    - rid: 368439964521464476
+    - rid: 368440049819189582
+    - rid: 368439983330296070
+    - rid: 368439962976911486
+  m_TriggerEvent:
+    rid: 368439959248437792
+  references:
+    version: 2
+    RefIds:
+    - rid: 368439959248437792
+      type: {class: EventMeleeHit, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data: 
+    - rid: 368439959248437796
+      type: {class: InstructionStatsChangeAttribute, ns: GameCreator.Runtime.Stats,
+        asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 368439959248437802
+        m_Attribute:
+          m_Property:
+            rid: 368439959248437798
+        m_Change:
+          m_Operation: 2
+          m_Value:
+            m_Property:
+              rid: 368439960678171353
+    - rid: 368439959248437798
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 368439959248437802
+      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439960678171353
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 100
+    - rid: 368439960678171356
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 368439962976911460
+    - rid: 368439962357203056
+      type: {class: InstructionCharacterKill, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368439962357203058
+    - rid: 368439962357203058
+      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439962357203742
+      type: {class: InstructionAnimatorPlayAnimation, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Animator:
+          m_Property:
+            rid: 368439962357203743
+        m_AnimationClip:
+          m_Property:
+            rid: 368439962357203744
+    - rid: 368439962357203743
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 546899067088408233}
+    - rid: 368439962357203744
+      type: {class: GetAnimationInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {fileID: 7400000, guid: 18ab9f59a0d37874397e2c24089cf02e, type: 3}
+    - rid: 368439962976911460
+      type: {class: ConditionCharacterIsDead, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 0
+        m_Character:
+          m_Property:
+            rid: 368439962976911462
+    - rid: 368439962976911462
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 368439962976911484
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 368439962976911485
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 368439962976911485
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 3
+    - rid: 368439962976911486
+      type: {class: InstructionGameObjectDestroy, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_GameObject:
+          m_Property:
+            rid: 368439962976911487
+    - rid: 368439962976911487
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 5234586475393878932}
+    - rid: 368439964521464476
+      type: {class: InstructionStatsChangeStat, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 368439964521464477
+        m_Stat:
+          m_Property:
+            rid: 368439964521464478
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 368439964521464479
+    - rid: 368439964521464477
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439964521464478
+      type: {class: GetStatInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Stat: {fileID: 11400000, guid: 956ca2e8ac7a93a479d2edc188d5c7b8, type: 2}
+    - rid: 368439964521464479
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 368439983330296070
+      type: {class: InstructionQuestTaskValue, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Journal:
+          m_Property:
+            rid: 368439983330296071
+        m_Task:
+          m_Quest: {fileID: 11400000, guid: 8cc17d3a3cece8448863c8b0f87f2140, type: 2}
+          m_TaskId: -2040403498
+        m_Value:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 368439983330296072
+    - rid: 368439983330296071
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439983330296072
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 368439992585552045
+      type: {class: InstructionCharacterRemoveCandidateTarget, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368439992585552046
+        m_Target:
+          m_Property:
+            rid: 368439992585552047
+    - rid: 368439992585552046
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439992585552047
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 938301614039242514}
+    - rid: 368440049819189582
+      type: {class: InstructionStatsChangeStat, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 368440049819189583
+        m_Stat:
+          m_Property:
+            rid: 368440049819189584
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 368440049819189585
+    - rid: 368440049819189583
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368440049819189584
+      type: {class: GetStatInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Stat: {fileID: 11400000, guid: d5e996d29fd8b4949be83fecaab6065b, type: 2}
+    - rid: 368440049819189585
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 368440072002077398
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 368440072002077399
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 368440072002077399
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.8
+--- !u!114 &4105593536526202108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938301614039242514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 368439960678171356
+    - rid: 368439959248437796
+    - rid: 368439962357203056
+    - rid: 368439992585552048
+    - rid: 368439962357203742
+    - rid: 368439962976911436
+    - rid: 368439962976911484
+    - rid: 368439964521464476
+    - rid: 368440049819189586
+    - rid: 368439967091524283
+    - rid: 368439962976911486
+  m_TriggerEvent:
+    rid: 368439983330296615
+  references:
+    version: 2
+    RefIds:
+    - rid: 368439959248437796
+      type: {class: InstructionStatsChangeAttribute, ns: GameCreator.Runtime.Stats,
+        asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 368439959248437802
+        m_Attribute:
+          m_Property:
+            rid: 368439959248437798
+        m_Change:
+          m_Operation: 2
+          m_Value:
+            m_Property:
+              rid: 368439960678171353
+    - rid: 368439959248437798
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 368439959248437802
+      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439960678171353
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 100
+    - rid: 368439960678171356
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 368439962976911460
+    - rid: 368439962357203056
+      type: {class: InstructionCharacterKill, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368439962357203058
+    - rid: 368439962357203058
+      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439962357203742
+      type: {class: InstructionAnimatorPlayAnimation, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Animator:
+          m_Property:
+            rid: 368439962357203743
+        m_AnimationClip:
+          m_Property:
+            rid: 368439962357203744
+    - rid: 368439962357203743
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 546899067088408233}
+    - rid: 368439962357203744
+      type: {class: GetAnimationInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {fileID: 7400000, guid: d1f556ef84da9314eb437fafa88ec051, type: 3}
+    - rid: 368439962976911436
+      type: {class: InstructionCommonAudioSFXPlay, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip:
+          m_Property:
+            rid: 368439962976911437
+        m_WaitToComplete: 0
+        m_Config:
+          m_Volume: 1
+          m_Pitch: {x: 1, y: 1}
+          m_TransitionIn: 0
+          m_UpdateMode: 0
+          m_SpatialBlend: 0
+          m_Target:
+            m_Property:
+              rid: 368439962976911438
+    - rid: 368439962976911437
+      type: {class: GetAudioClip, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {fileID: 8300000, guid: f855e55cf437944e8bc43370938e8ad9, type: 3}
+    - rid: 368439962976911438
+      type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439962976911460
+      type: {class: ConditionCharacterIsDead, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 0
+        m_Character:
+          m_Property:
+            rid: 368439962976911462
+    - rid: 368439962976911462
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 368439962976911484
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 368439962976911485
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 368439962976911485
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 2
+    - rid: 368439962976911486
+      type: {class: InstructionGameObjectDestroy, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_GameObject:
+          m_Property:
+            rid: 368439962976911487
+    - rid: 368439962976911487
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 5234586475393878932}
+    - rid: 368439964521464476
+      type: {class: InstructionStatsChangeStat, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 368439964521464477
+        m_Stat:
+          m_Property:
+            rid: 368439964521464478
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 368439964521464479
+    - rid: 368439964521464477
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439964521464478
+      type: {class: GetStatInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Stat: {fileID: 11400000, guid: 956ca2e8ac7a93a479d2edc188d5c7b8, type: 2}
+    - rid: 368439964521464479
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 368439967091524283
+      type: {class: InstructionQuestTaskValue, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Journal:
+          m_Property:
+            rid: 368439967091524284
+        m_Task:
+          m_Quest: {fileID: 11400000, guid: 8cc17d3a3cece8448863c8b0f87f2140, type: 2}
+          m_TaskId: -2040403498
+        m_Value:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 368439967091524285
+    - rid: 368439967091524284
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439967091524285
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 368439983330296615
+      type: {class: EventAbilityHit, ns: DaimahouGames.Runtime.Abilities.VisualScripting,
+        asm: DaimahouGames.Runtime.Abilities}
+      data:
+        m_Pawn:
+          m_Property:
+            rid: 368439983330296617
+    - rid: 368439983330296617
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 368439992585552048
+      type: {class: InstructionCharacterRemoveCandidateTarget, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368439992585552049
+        m_Target:
+          m_Property:
+            rid: 368439992585552050
+    - rid: 368439992585552049
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439992585552050
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 938301614039242514}
+    - rid: 368440049819189586
+      type: {class: InstructionStatsChangeStat, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 368440049819189587
+        m_Stat:
+          m_Property:
+            rid: 368440049819189588
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 368440049819189589
+    - rid: 368440049819189587
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368440049819189588
+      type: {class: GetStatInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Stat: {fileID: 11400000, guid: d5e996d29fd8b4949be83fecaab6065b, type: 2}
+    - rid: 368440049819189589
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+--- !u!114 &8025287438621738732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938301614039242514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions: []
+  m_TriggerEvent:
+    rid: 368440012107153727
+  references:
+    version: 2
+    RefIds:
+    - rid: 368440012107153727
+      type: {class: EventOnStart, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data: 
+--- !u!1 &1072935974730997639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8821200564632278890}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8821200564632278890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072935974730997639}
+  serializedVersion: 2
+  m_LocalRotation: {x: 9.2341523e-10, y: -1.2110461e-10, z: -0.13003509, w: 0.99150944}
+  m_LocalPosition: {x: -0.02219902, y: -0.0000000047683715, z: -0.000000009536743}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5241921900256975048}
+  m_Father: {fileID: 652302977896372290}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1287714945217297394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6061250443611588780}
+  - component: {fileID: 4905164064390130465}
+  - component: {fileID: 7909330741357401051}
+  m_Layer: 6
+  m_Name: SM_Shield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6061250443611588780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287714945217297394}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.003445268, y: 0.70078623, z: -0.0045154304, w: 0.71334875}
+  m_LocalPosition: {x: -0.20117667, y: 0.00346004, z: 0.014585399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3453671192094313726}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4905164064390130465
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287714945217297394}
+  m_Mesh: {fileID: 4300012, guid: 5bdb723f10fa9bd498f304f0a10f2ec4, type: 3}
+--- !u!23 &7909330741357401051
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287714945217297394}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5bcb536748f09124ebdda3ad1e054f44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1390155426864456887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4989138841775281676}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4989138841775281676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390155426864456887}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.3629369e-11, y: 0.00000011988215, z: -0.043220922, w: 0.9990655}
+  m_LocalPosition: {x: -0.065509185, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5427671248975407022}
+  m_Father: {fileID: 7687637969007625521}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1558490665631986635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7687637969007625521}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ Neck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7687637969007625521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558490665631986635}
+  serializedVersion: 2
+  m_LocalRotation: {x: -2.6914447e-12, y: -0.00000012099804, z: 0.0436192, w: 0.99904823}
+  m_LocalPosition: {x: -0.065504454, y: -0.00005197525, z: -1.4901161e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4989138841775281676}
+  m_Father: {fileID: 8564247843998594690}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1581453686048253643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7573345353703672212}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7573345353703672212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581453686048253643}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00041696473, y: 0.029223604, z: 0.027849281, w: 0.9991848}
+  m_LocalPosition: {x: -0.09090996, y: -0.000036811827, z: -0.033669986}
+  m_LocalScale: {x: 1.0000002, y: 0.9999998, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5390470480138874099}
+  m_Father: {fileID: 3039665017250072957}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1693305963276714419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7406847097231625682}
+  - component: {fileID: 8155926157667715439}
+  m_Layer: 6
+  m_Name: skeleton_knight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7406847097231625682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693305963276714419}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00003888453, y: 0, z: -0.00004469805}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8739150194346800928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &8155926157667715439
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693305963276714419}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: effb23791e2bc4941af4aa5ea3945fa8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 4
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: 5bdb723f10fa9bd498f304f0a10f2ec4, type: 3}
+  m_Bones:
+  - {fileID: 3810033077183070592}
+  - {fileID: 4425399830345124830}
+  - {fileID: 3432235193889153001}
+  - {fileID: 3119099596278418558}
+  - {fileID: 1370442558083315033}
+  - {fileID: 2531697911535664580}
+  - {fileID: 3987591691925004716}
+  - {fileID: 8564247843998594690}
+  - {fileID: 7687637969007625521}
+  - {fileID: 7579393396357541152}
+  - {fileID: 4989138841775281676}
+  - {fileID: 7801604283021611335}
+  - {fileID: 3453671192094313726}
+  - {fileID: 1561042431325317051}
+  - {fileID: 1088069361078094764}
+  - {fileID: 5390470480138874099}
+  - {fileID: 547578047401515233}
+  - {fileID: 9059217994302123458}
+  - {fileID: 3168403948069215322}
+  - {fileID: 4250737116355773291}
+  - {fileID: 421567513878596891}
+  - {fileID: 7573345353703672212}
+  - {fileID: 5204772234783914402}
+  - {fileID: 2238085317667381376}
+  - {fileID: 3039665017250072957}
+  - {fileID: 491080132924986363}
+  - {fileID: 5598468388327879184}
+  - {fileID: 7102209745848039826}
+  - {fileID: 2479988135790544807}
+  - {fileID: 835260241798764969}
+  - {fileID: 5666198761042618769}
+  - {fileID: 5453998573860630152}
+  - {fileID: 3624517553882837766}
+  - {fileID: 274614638226265987}
+  - {fileID: 6370914930584007615}
+  - {fileID: 8764146824317923030}
+  - {fileID: 4208111004109459437}
+  - {fileID: 8821200564632278890}
+  - {fileID: 3564538564482878740}
+  - {fileID: 652302977896372290}
+  - {fileID: 5241921900256975048}
+  - {fileID: 8204403151753383801}
+  - {fileID: 3500967564546346719}
+  - {fileID: 4915952189985333229}
+  - {fileID: 3844310256200113741}
+  - {fileID: 7643463822994207328}
+  - {fileID: 7437512843340099578}
+  - {fileID: 8446927806419292831}
+  - {fileID: 32125434085077586}
+  - {fileID: 1393711313568976928}
+  - {fileID: 3648599193903792646}
+  - {fileID: 8041762541845126191}
+  - {fileID: 591959420797231929}
+  - {fileID: 330987643031360833}
+  - {fileID: 8477745016709760300}
+  - {fileID: 2402803872919495622}
+  - {fileID: 3048326589947580670}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 7579393396357541152}
+  m_AABB:
+    m_Center: {x: 0.053165257, y: 0.03533133, z: 0.000105410814}
+    m_Extent: {x: 0.9506716, y: 0.14843589, z: 0.30036065}
+  m_DirtyAABB: 0
+--- !u!1 &1790120142957843916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5666198761042618769}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5666198761042618769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790120142957843916}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00245798, y: -0.052998044, z: -0.18564107, w: 0.9811843}
+  m_LocalPosition: {x: -0.029916916, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3624517553882837766}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1974322338774062364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3039665017250072957}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3039665017250072957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974322338774062364}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.99999994, y: 0, z: 0, w: -0.00039814258}
+  m_LocalPosition: {x: -0.27322295, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2238085317667381376}
+  - {fileID: 7573345353703672212}
+  - {fileID: 9059217994302123458}
+  - {fileID: 8204403151753383801}
+  - {fileID: 7643463822994207328}
+  m_Father: {fileID: 3453671192094313726}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2058724545710535224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 421567513878596891}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &421567513878596891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058724545710535224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0024579912, y: 0.052998047, z: -0.18564107, w: 0.9811843}
+  m_LocalPosition: {x: -0.029917106, y: 0.000000038146972, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5204772234783914402}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2122334362040884401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3168403948069215322}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3168403948069215322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122334362040884401}
+  serializedVersion: 2
+  m_LocalRotation: {x: -7.407364e-11, y: -0.0000000018611716, z: -0.03976799, w: 0.999209}
+  m_LocalPosition: {x: -0.034076, y: 0, z: -0.000000019073486}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4250737116355773291}
+  m_Father: {fileID: 9059217994302123458}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2440128695397797740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1081455650907352351}
+  - component: {fileID: 80921789619066256}
+  - component: {fileID: 4835158764603388206}
+  m_Layer: 6
+  m_Name: SM_2HandedSword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1081455650907352351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440128695397797740}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.69346654, y: -0.005532028, z: 0.72021276, w: -0.019163588}
+  m_LocalPosition: {x: -0.061999433, y: 0.029063093, z: -0.004417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6370914930584007615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &80921789619066256
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440128695397797740}
+  m_Mesh: {fileID: 4300006, guid: 5bdb723f10fa9bd498f304f0a10f2ec4, type: 3}
+--- !u!23 &4835158764603388206
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440128695397797740}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e61b7eac30096d846ac98e3351d005d6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2784886068419498620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1370442558083315033}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1370442558083315033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784886068419498620}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.0274448e-11, y: 7.275958e-12, z: -7.475645e-23, w: 1}
+  m_LocalPosition: {x: -0.15942298, y: -0.00012694448, z: -3.352761e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3432235193889153001}
+  m_Father: {fileID: 1088069361078094764}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2839425508509861664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2479988135790544807}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2479988135790544807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2839425508509861664}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0.039767995, w: 0.999209}
+  m_LocalPosition: {x: -0.034076, y: 0.0000000023841857, z: -0.000000019073486}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 835260241798764969}
+  m_Father: {fileID: 7102209745848039826}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2885602166781349509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4250737116355773291}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4250737116355773291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885602166781349509}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000011418074, y: -0.0000000017415757, z: -0.11640205,
+    w: 0.9932022}
+  m_LocalPosition: {x: -0.040239103, y: -0.000000009536743, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3168403948069215322}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3094955680996185224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1393711313568976928}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1393711313568976928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3094955680996185224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 5.6459733e-11, y: -9.2960956e-10, z: 0.06062318, w: 0.9981607}
+  m_LocalPosition: {x: -0.49877304, y: 7.4505804e-11, z: 0.000000009536743}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3648599193903792646}
+  m_Father: {fileID: 1561042431325317051}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3334694225219985207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6063869017647365973}
+  - component: {fileID: 9131934600687665125}
+  - component: {fileID: 1142016381179749344}
+  m_Layer: 6
+  m_Name: SM_Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6063869017647365973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3334694225219985207}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.69346654, y: -0.005532028, z: 0.72021276, w: -0.019163588}
+  m_LocalPosition: {x: -0.061999433, y: 0.029063093, z: -0.004417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6370914930584007615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9131934600687665125
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3334694225219985207}
+  m_Mesh: {fileID: 4300010, guid: 5bdb723f10fa9bd498f304f0a10f2ec4, type: 3}
+--- !u!23 &1142016381179749344
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3334694225219985207}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 56c7d185cc3419c48b0a4aac55c0e0c7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3515302539408061923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2801370761882172034}
+  - component: {fileID: 7849866866475378947}
+  - component: {fileID: 4297678185253528726}
+  m_Layer: 6
+  m_Name: WEAPON_BONE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2801370761882172034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3515302539408061923}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6934665, y: -0.0055318563, z: 0.72021276, w: -0.019163772}
+  m_LocalPosition: {x: -0.06203674, y: 0.029145582, z: -0.0041524125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6370914930584007615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7849866866475378947
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3515302539408061923}
+  m_Mesh: {fileID: 4300008, guid: 5bdb723f10fa9bd498f304f0a10f2ec4, type: 3}
+--- !u!23 &4297678185253528726
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3515302539408061923}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: effb23791e2bc4941af4aa5ea3945fa8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3515371910183230523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8564247843998594690}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8564247843998594690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3515371910183230523}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.41438285e-11, y: 0.0000002417383, z: -0.08715579, w: 0.9961947}
+  m_LocalPosition: {x: -0.1594319, y: -0.00011442594, z: -2.9802322e-10}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7687637969007625521}
+  m_Father: {fileID: 3432235193889153001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4050233100121574830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8204403151753383801}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8204403151753383801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4050233100121574830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0018989608, y: 0.049943697, z: 0.045870744, w: 0.99769634}
+  m_LocalPosition: {x: -0.09047996, y: 0.00000796318, z: 0.010003986}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 0.99999964}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3500967564546346719}
+  m_Father: {fileID: 3039665017250072957}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4161325294106767478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3128870808293941579}
+  m_Layer: 6
+  m_Name: Mannequin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3128870808293941579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4161325294106767478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8739150194346800928}
+  m_Father: {fileID: 5952016753882692779}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4173539541585233880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3048326589947580670}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Toe02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3048326589947580670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4173539541585233880}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.8789278e-24, y: -1.0329515e-12, z: -1.8189894e-12, w: 1}
+  m_LocalPosition: {x: -0.029781999, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2402803872919495622}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4360376753483526567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5453998573860630152}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5453998573860630152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4360376753483526567}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00041696493, y: -0.029223606, z: 0.027849281, w: 0.9991848}
+  m_LocalPosition: {x: -0.09091003, y: -0.000036809444, z: 0.033669986}
+  m_LocalScale: {x: 1.0000002, y: 0.9999999, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 491080132924986363}
+  m_Father: {fileID: 6370914930584007615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4488880208281370986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5204772234783914402}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5204772234783914402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4488880208281370986}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000017262272, y: -0.000000028499779, z: -0.080863014,
+    w: 0.99672526}
+  m_LocalPosition: {x: -0.031297036, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 421567513878596891}
+  m_Father: {fileID: 2238085317667381376}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4738868887226807919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588786663583523977}
+  - component: {fileID: 342217704341159238}
+  - component: {fileID: 6305694101125642252}
+  - component: {fileID: 2371732608678681094}
+  - component: {fileID: 7938285971311909262}
+  m_Layer: 6
+  m_Name: Trigger_Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &588786663583523977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738868887226807919}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5952016753882692779}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &342217704341159238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738868887226807919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 368440063412929286
+    - rid: 4340017173305229379
+    - rid: 4340017173305229384
+    - rid: 4340017173305229391
+  m_TriggerEvent:
+    rid: 368439992585552014
+  references:
+    version: 2
+    RefIds:
+    - rid: 368439992585552014
+      type: {class: EventTriggerEnter, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Collider:
+          m_Option: 1
+          m_GameObject:
+            m_Property:
+              rid: 368439992585552015
+    - rid: 368439992585552015
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368440063412929286
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 368440063412929287
+    - rid: 368440063412929287
+      type: {class: ConditionCharacterIsDead, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 0
+        m_Character:
+          m_Property:
+            rid: 368440063412929288
+    - rid: 368440063412929288
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173305229379
+      type: {class: InstructionMeleeEquipWeapon, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4340017173305229383
+        m_Weapon:
+          m_Property:
+            rid: 4340017173305229381
+        m_Model:
+          m_Property:
+            rid: 4340017173305229382
+    - rid: 4340017173305229381
+      type: {class: GetWeaponMeleeInstance, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Weapon: {fileID: 11400000, guid: 84d984b808e2ecb4c8ce9b318ca0244f, type: 2}
+    - rid: 4340017173305229382
+      type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173305229383
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 4340017173305229384
+      type: {class: InstructionCharacterAddCandidateTarget, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4340017173305229390
+        m_Target:
+          m_Property:
+            rid: 4340017173305229389
+    - rid: 4340017173305229389
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 4340017173305229390
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173305229391
+      type: {class: InstructionCharacterSetTarget, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4340017173305229394
+        m_Target:
+          m_Property:
+            rid: 4340017173305229395
+    - rid: 4340017173305229394
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 4340017173305229395
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+--- !u!135 &6305694101125642252
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738868887226807919}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &2371732608678681094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738868887226807919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 368439992585552042
+    - rid: 368440013515653298
+    - rid: 368440015480946981
+  m_TriggerEvent:
+    rid: 368439992585552040
+  references:
+    version: 2
+    RefIds:
+    - rid: 368439992585552040
+      type: {class: EventTriggerExit, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Collider:
+          m_Option: 1
+          m_GameObject:
+            m_Property:
+              rid: 368439992585552041
+    - rid: 368439992585552041
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439992585552042
+      type: {class: InstructionCharacterRemoveCandidateTarget, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368439992585552043
+        m_Target:
+          m_Property:
+            rid: 368439992585552044
+    - rid: 368439992585552043
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439992585552044
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 938301614039242514}
+    - rid: 368440013515653298
+      type: {class: InstructionCharacterClearTarget, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368440013515653300
+    - rid: 368440013515653300
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 368440015480946981
+      type: {class: InstructionMeleeUnequipWeapon, ns: GameCreator.Runtime.Melee,
+        asm: GameCreator.Runtime.Melee}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368440015480946984
+        m_Weapon:
+          m_Property:
+            rid: 368440015480947011
+    - rid: 368440015480946984
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 368440015480947011
+      type: {class: GetWeaponMeleeInstance, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Weapon: {fileID: 11400000, guid: 84d984b808e2ecb4c8ce9b318ca0244f, type: 2}
+--- !u!114 &7938285971311909262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738868887226807919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 368439992585552042
+    - rid: 368440013515653298
+    - rid: 368440015480946981
+  m_TriggerEvent:
+    rid: 368440054013755812
+  references:
+    version: 2
+    RefIds:
+    - rid: 368439992585552042
+      type: {class: InstructionCharacterRemoveCandidateTarget, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368439992585552043
+        m_Target:
+          m_Property:
+            rid: 368439992585552044
+    - rid: 368439992585552043
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 368439992585552044
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 938301614039242514}
+    - rid: 368440013515653298
+      type: {class: InstructionCharacterClearTarget, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368440013515653300
+    - rid: 368440013515653300
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 368440015480946981
+      type: {class: InstructionMeleeUnequipWeapon, ns: GameCreator.Runtime.Melee,
+        asm: GameCreator.Runtime.Melee}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 368440015480946984
+        m_Weapon:
+          m_Property:
+            rid: 368440015480947011
+    - rid: 368440015480946984
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 368440015480947011
+      type: {class: GetWeaponMeleeInstance, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Weapon: {fileID: 11400000, guid: 84d984b808e2ecb4c8ce9b318ca0244f, type: 2}
+    - rid: 368440054013755812
+      type: {class: EventCharacterOnDie, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character:
+          m_Property:
+            rid: 368440054013755813
+    - rid: 368440054013755813
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+--- !u!1 &4791936645109341838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2836404489464232417}
+  - component: {fileID: 3463453580994318092}
+  m_Layer: 6
+  m_Name: Trigger_Defend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2836404489464232417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4791936645109341838}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000035762784}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6760623608646873601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3463453580994318092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4791936645109341838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 4340017173305229402
+    - rid: 4340017173305229410
+    - rid: 4340017173305229414
+    - rid: 4340017173305229417
+    - rid: 4340017173305229424
+  m_TriggerEvent:
+    rid: 4340017173305229400
+  references:
+    version: 2
+    RefIds:
+    - rid: 368439962357203200
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 368439962357203271
+        m_Attribute:
+          m_Property:
+            rid: 368439962357203202
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 3
+          m_CompareTo:
+            m_Property:
+              rid: 368439962357203203
+    - rid: 368439962357203202
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 368439962357203203
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0
+    - rid: 368439962357203271
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 4340017173305229400
+      type: {class: EventMeleeOnInputExecute, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Character:
+          m_Property:
+            rid: 4340017173305229401
+        m_Key: 0
+    - rid: 4340017173305229401
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173305229402
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 4340017173305229403
+          - rid: 368439962357203200
+    - rid: 4340017173305229403
+      type: {class: ConditionMathCompareBooleans, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Value:
+          m_Property:
+            rid: 4340017173305229407
+        m_Comparison: 0
+        m_CompareTo:
+          m_Property:
+            rid: 4340017173305229406
+    - rid: 4340017173305229406
+      type: {class: GetBoolTrue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173305229407
+      type: {class: GetBoolLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: boolean
+          m_Variable:
+            rid: 4340017173305229408
+          m_Name:
+            m_String: can-defend
+            m_ID: -636592326
+    - rid: 4340017173305229408
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 4340017173305229409
+    - rid: 4340017173305229409
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 4989960746822402921}
+    - rid: 4340017173305229410
+      type: {class: InstructionMeleeSetDefense, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4340017173305229413
+        m_Value:
+          m_Property:
+            rid: 4340017173305229412
+    - rid: 4340017173305229412
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 99
+    - rid: 4340017173305229413
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 4340017173305229414
+      type: {class: InstructionMeleeStartBlocking, ns: GameCreator.Runtime.Melee,
+        asm: GameCreator.Runtime.Melee}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4340017173305229416
+    - rid: 4340017173305229416
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 4340017173305229417
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 4340017173305229419
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 4340017173305229419
+      type: {class: GetDecimalRandomRange, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_MinValue:
+          m_Property:
+            rid: 4340017173305229422
+        m_MaxValue:
+          m_Property:
+            rid: 4340017173305229423
+    - rid: 4340017173305229422
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1.5
+    - rid: 4340017173305229423
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 2.5
+    - rid: 4340017173305229424
+      type: {class: InstructionMeleeStopBlocking, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4340017173305229426
+    - rid: 4340017173305229426
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+--- !u!1 &4989960746822402921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8748368402738760269}
+  - component: {fileID: 1967441610776374515}
+  m_Layer: 6
+  m_Name: Variables
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8748368402738760269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989960746822402921}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000035762784}
+  m_LocalPosition: {x: 0, y: -1, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6760623608646873601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1967441610776374515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989960746822402921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe2b16044a04efba6795e323236dc60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaveUniqueID:
+    m_Save:
+      m_Save: 0
+    m_UniqueID:
+      m_SerializedID:
+        m_String: 42f4c989-cb8b-465f-bacd-f225b7ed4215
+  m_Runtime:
+    rid: 4340017111633757009
+  references:
+    version: 2
+    RefIds:
+    - rid: 4340017111633757009
+      type: {class: NameVariableRuntime, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_List:
+          rid: 4340017111633757010
+    - rid: 4340017111633757010
+      type: {class: NameList, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Source:
+        - rid: 4340017111633757014
+        - rid: 4340017111633757017
+        - rid: 4340017111633757019
+    - rid: 4340017111633757014
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 4340017111633757016
+        m_Name:
+          m_String: can-defend
+    - rid: 4340017111633757016
+      type: {class: ValueBool, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
+    - rid: 4340017111633757017
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 4340017111633757018
+        m_Name:
+          m_String: can-attack
+    - rid: 4340017111633757018
+      type: {class: ValueBool, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 1
+    - rid: 4340017111633757019
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 4340017111633757021
+        m_Name:
+          m_String: attack-rate
+    - rid: 4340017111633757021
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 1.5
+--- !u!1 &5077797564185010866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4915952189985333229}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4915952189985333229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5077797564185010866}
+  serializedVersion: 2
+  m_LocalRotation: {x: 9.2341523e-10, y: -1.2110463e-10, z: -0.13003509, w: 0.99150944}
+  m_LocalPosition: {x: -0.02219902, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7437512843340099578}
+  m_Father: {fileID: 7643463822994207328}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5138409389550606964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 652302977896372290}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &652302977896372290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5138409389550606964}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0032301822, y: -0.06886014, z: 0.052461825, w: 0.99624074}
+  m_LocalPosition: {x: -0.08890899, y: 0.000044982433, z: -0.03137394}
+  m_LocalScale: {x: 1, y: 0.99999964, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8821200564632278890}
+  m_Father: {fileID: 6370914930584007615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5175351818402605989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958565814175272860}
+  - component: {fileID: 2789268438501932461}
+  m_Layer: 6
+  m_Name: Trigger_Attack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958565814175272860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5175351818402605989}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000035762784}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6760623608646873601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2789268438501932461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5175351818402605989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 4340017173305229435
+    - rid: 4340017173305229446
+  m_TriggerEvent:
+    rid: 4340017173305229430
+  references:
+    version: 2
+    RefIds:
+    - rid: 368439962357203196
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 368439962357203249
+        m_Attribute:
+          m_Property:
+            rid: 368439962357203198
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 3
+          m_CompareTo:
+            m_Property:
+              rid: 368439962357203199
+    - rid: 368439962357203198
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 368439962357203199
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0
+    - rid: 368439962357203249
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 4340017173305229430
+      type: {class: EventOnInterval, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_TimeMode:
+          m_UpdateTime: 0
+        m_Interval:
+          m_Property:
+            rid: 4340017173305229432
+    - rid: 4340017173305229432
+      type: {class: GetDecimalLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable:
+            rid: 4340017173305229433
+          m_Name:
+            m_String: attack-rate
+            m_ID: -1411035781
+    - rid: 4340017173305229433
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 4340017173305229434
+    - rid: 4340017173305229434
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 4989960746822402921}
+    - rid: 4340017173305229435
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 4340017173305229436
+          - rid: 4340017173305229443
+          - rid: 368439962357203196
+    - rid: 4340017173305229436
+      type: {class: ConditionMathCompareBooleans, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Value:
+          m_Property:
+            rid: 4340017173305229440
+        m_Comparison: 0
+        m_CompareTo:
+          m_Property:
+            rid: 4340017173305229439
+    - rid: 4340017173305229439
+      type: {class: GetBoolTrue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4340017173305229440
+      type: {class: GetBoolLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: boolean
+          m_Variable:
+            rid: 4340017173305229441
+          m_Name:
+            m_String: can-attack
+            m_ID: 256582831
+    - rid: 4340017173305229441
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 4340017173305229442
+    - rid: 4340017173305229442
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 4989960746822402921}
+    - rid: 4340017173305229443
+      type: {class: ConditionMeleeIsBlocking, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 0
+        m_Character:
+          m_Property:
+            rid: 4340017173305229445
+    - rid: 4340017173305229445
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+    - rid: 4340017173305229446
+      type: {class: InstructionMeleeInputExecute, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4340017173305229448
+        m_Key: 0
+    - rid: 4340017173305229448
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 8745854947138426882}
+--- !u!1 &5181643203240493156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9059217994302123458}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9059217994302123458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5181643203240493156}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0003979014, y: 0.03440688, z: -0.000013698925, w: 0.9994078}
+  m_LocalPosition: {x: -0.090510026, y: -0.000012280941, z: -0.011655007}
+  m_LocalScale: {x: 0.9999997, y: 1, z: 0.9999997}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3168403948069215322}
+  m_Father: {fileID: 3039665017250072957}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5234586475393878932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6760623608646873601}
+  m_Layer: 6
+  m_Name: Enemy7_with_Fists Pawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6760623608646873601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5234586475393878932}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5952016753882692779}
+  - {fileID: 8748368402738760269}
+  - {fileID: 4113305122433339358}
+  - {fileID: 2836404489464232417}
+  - {fileID: 3958565814175272860}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5283407509534068776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7102209745848039826}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7102209745848039826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5283407509534068776}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0003979014, y: -0.03440688, z: -0.000013698923, w: 0.9994078}
+  m_LocalPosition: {x: -0.090510026, y: -0.000012280941, z: 0.011655007}
+  m_LocalScale: {x: 0.99999976, y: 1.0000001, z: 0.9999997}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2479988135790544807}
+  m_Father: {fileID: 6370914930584007615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5322155646170307553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 32125434085077586}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &32125434085077586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5322155646170307553}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00009224706, y: 0.011976399, z: -0.060055353, w: 0.9981232}
+  m_LocalPosition: {x: -0.394487, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8041762541845126191}
+  m_Father: {fileID: 8446927806419292831}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6034522161139333177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5241921900256975048}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5241921900256975048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034522161139333177}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000036999666, y: 4.3363144e-10, z: -0.11640206, w: 0.9932022}
+  m_LocalPosition: {x: -0.028742066, y: -0.000000009536743, z: 0.000000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8821200564632278890}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6163638242737318860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 491080132924986363}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &491080132924986363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6163638242737318860}
+  serializedVersion: 2
+  m_LocalRotation: {x: 2.3124794e-10, y: -2.7101963e-11, z: -0.11640203, w: 0.9932022}
+  m_LocalPosition: {x: -0.032415923, y: -0.0000000023841857, z: 0.000000019073486}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5598468388327879184}
+  m_Father: {fileID: 5453998573860630152}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6211914946953516680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5390470480138874099}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5390470480138874099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211914946953516680}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0.11640204, w: 0.9932022}
+  m_LocalPosition: {x: -0.032416, y: 0.0000000047683715, z: 0.000000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 547578047401515233}
+  m_Father: {fileID: 7573345353703672212}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6292262238358478642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8041762541845126191}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8041762541845126191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292262238358478642}
+  serializedVersion: 2
+  m_LocalRotation: {x: -7.3040705e-13, y: -7.3040705e-13, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.105771, y: 0.124354005, z: -0.007907009}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 591959420797231929}
+  m_Father: {fileID: 32125434085077586}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6592941275942587660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6370914930584007615}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6370914930584007615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6592941275942587660}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.99999994, y: -0, z: 0, w: 0.00039814258}
+  m_LocalPosition: {x: -0.27322304, y: 0, z: -0.000000019073486}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 274614638226265987}
+  - {fileID: 5453998573860630152}
+  - {fileID: 7102209745848039826}
+  - {fileID: 8764146824317923030}
+  - {fileID: 652302977896372290}
+  - {fileID: 1081455650907352351}
+  - {fileID: 6063869017647365973}
+  - {fileID: 2801370761882172034}
+  m_Father: {fileID: 3987591691925004716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6794647009172611164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274614638226265987}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &274614638226265987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6794647009172611164}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.58300173, y: 0.2974622, z: 0.08969978, w: 0.75071913}
+  m_LocalPosition: {x: -0.026637038, y: 0.0074689076, z: 0.047841966}
+  m_LocalScale: {x: 0.99999964, y: 1.0000001, z: 0.9999997}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3624517553882837766}
+  m_Father: {fileID: 6370914930584007615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6885493593730696937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2238085317667381376}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2238085317667381376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6885493593730696937}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.58300173, y: -0.2974622, z: 0.08969978, w: 0.75071913}
+  m_LocalPosition: {x: -0.026636962, y: 0.0074689053, z: -0.047841966}
+  m_LocalScale: {x: 0.9999995, y: 1.0000001, z: 0.99999964}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5204772234783914402}
+  m_Father: {fileID: 3039665017250072957}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6974361782039208321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8764146824317923030}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8764146824317923030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6974361782039208321}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0018989616, y: -0.049943693, z: 0.045870747, w: 0.99769634}
+  m_LocalPosition: {x: -0.09048004, y: 0.000007965565, z: -0.010003986}
+  m_LocalScale: {x: 1, y: 1.0000005, z: 0.99999976}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4208111004109459437}
+  m_Father: {fileID: 6370914930584007615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7056875280909633253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3987591691925004716}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3987591691925004716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7056875280909633253}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.4621923e-10, y: -0.0000000037240193, z: -0.009955003, w: 0.99995047}
+  m_LocalPosition: {x: -0.33155295, y: 0, z: 0.000000019073486}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6370914930584007615}
+  m_Father: {fileID: 3119099596278418558}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7074550782834096250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8477745016709760300}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8477745016709760300
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074550782834096250}
+  serializedVersion: 2
+  m_LocalRotation: {x: -7.3040705e-13, y: -7.3040705e-13, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.105771, y: 0.124354, z: 0.00790699}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2402803872919495622}
+  m_Father: {fileID: 3648599193903792646}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7109144525414186619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561042431325317051}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1561042431325317051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7109144525414186619}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00057007244, y: 0.9999281, z: 0.00063340075, w: -0.0119607365}
+  m_LocalPosition: {x: -0.000000076293944, y: -0.00000008384697, z: -0.091975}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1393711313568976928}
+  m_Father: {fileID: 7579393396357541152}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7168906996239786610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3564538564482878740}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3564538564482878740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7168906996239786610}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000023413436, y: 0.0000000040251895, z: -0.116402015,
+    w: 0.9932022}
+  m_LocalPosition: {x: -0.033548124, y: -0.000000009536743, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4208111004109459437}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7178024692403912193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1088069361078094764}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1088069361078094764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7178024692403912193}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000020804748, y: 0.0000006936814, z: -0.00039815897, w: 0.99999994}
+  m_LocalPosition: {x: -0.10577103, y: -0.00012689609, z: 0.00000014686957}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1370442558083315033}
+  m_Father: {fileID: 7579393396357541152}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7294284062505652613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1428473087071621671}
+  m_Layer: 6
+  m_Name: root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1428473087071621671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294284062505652613}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3842329845710258948}
+  m_Father: {fileID: 8739150194346800928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7620363419737097567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7437512843340099578}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7437512843340099578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7620363419737097567}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000014163519, y: 0.0000000039167833, z: -0.11640208,
+    w: 0.9932022}
+  m_LocalPosition: {x: -0.02874199, y: 0, z: -0.000000009536743}
+  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4915952189985333229}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7653492829121004517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3432235193889153001}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ Spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3432235193889153001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653492829121004517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.0274448e-11, y: 7.275958e-12, z: -7.475645e-23, w: 1}
+  m_LocalPosition: {x: -0.15942283, y: -0.00012694426, z: -3.72529e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3810033077183070592}
+  - {fileID: 8564247843998594690}
+  - {fileID: 2531697911535664580}
+  m_Father: {fileID: 1370442558083315033}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7710925389512937187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3119099596278418558}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3119099596278418558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7710925389512937187}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0104205515, y: 0.7007172, z: 0.011617047, w: 0.7132684}
+  m_LocalPosition: {x: -0.14085898, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3987591691925004716}
+  m_Father: {fileID: 2531697911535664580}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7930664995322955600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4425399830345124830}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4425399830345124830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7930664995322955600}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.010420599, y: -0.7007173, z: 0.011617, w: 0.7132684}
+  m_LocalPosition: {x: -0.14085898, y: 1.4901161e-10, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3453671192094313726}
+  m_Father: {fileID: 3810033077183070592}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8238390792906521963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 835260241798764969}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &835260241798764969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238390792906521963}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0.11640206, w: 0.9932022}
+  m_LocalPosition: {x: -0.04023903, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2479988135790544807}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8426012626605575698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7579393396357541152}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7579393396357541152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426012626605575698}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7801604283021611335}
+  - {fileID: 1561042431325317051}
+  - {fileID: 1088069361078094764}
+  m_Father: {fileID: 3842329845710258948}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8439849091968774846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2402803872919495622}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2402803872919495622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439849091968774846}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.8789278e-24, y: -1.0329515e-12, z: -1.8189894e-12, w: 1}
+  m_LocalPosition: {x: -0.029781993, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3048326589947580670}
+  m_Father: {fileID: 8477745016709760300}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8614622423959260357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5598468388327879184}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5598468388327879184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8614622423959260357}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001416352, y: 0.0000000039167825, z: -0.11640205,
+    w: 0.9932022}
+  m_LocalPosition: {x: -0.032580107, y: 0, z: -0.000000038146972}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 491080132924986363}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8618198779606648415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7801604283021611335}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7801604283021611335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8618198779606648415}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0005659315, y: 0.9999281, z: -0.00063464936, w: 0.01195927}
+  m_LocalPosition: {x: 0.000000076293944, y: 0.00000017126091, z: 0.09197499}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8446927806419292831}
+  m_Father: {fileID: 7579393396357541152}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8667169606369231212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 275706574960433811}
+  - component: {fileID: 686617339218547368}
+  m_Layer: 6
+  m_Name: SK_Armor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &275706574960433811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8667169606369231212}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.00004577614, y: 1.5241226, z: 0.041455507}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8739150194346800928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &686617339218547368
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8667169606369231212}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 83adee4cf0d1dc043a4c6a34335c577a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 4
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 5bdb723f10fa9bd498f304f0a10f2ec4, type: 3}
+  m_Bones:
+  - {fileID: 1370442558083315033}
+  - {fileID: 3432235193889153001}
+  - {fileID: 3810033077183070592}
+  - {fileID: 4425399830345124830}
+  - {fileID: 3119099596278418558}
+  - {fileID: 2531697911535664580}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1370442558083315033}
+  m_AABB:
+    m_Center: {x: -0.2618518, y: 0.04139479, z: -0.00010277331}
+    m_Extent: {x: 0.11508091, y: 0.13623635, z: 0.27256006}
+  m_DirtyAABB: 0
+--- !u!1 &8745901097061074377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3453671192094313726}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3453671192094313726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8745901097061074377}
+  serializedVersion: 2
+  m_LocalRotation: {x: 7.674742e-11, y: 0.0000000018619736, z: -0.009955004, w: 0.99995047}
+  m_LocalPosition: {x: -0.33155295, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3039665017250072957}
+  - {fileID: 6061250443611588780}
+  m_Father: {fileID: 4425399830345124830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8750717937044771850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 591959420797231929}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &591959420797231929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8750717937044771850}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.8789278e-24, y: -1.0329515e-12, z: -1.8189894e-12, w: 1}
+  m_LocalPosition: {x: -0.02978199, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 330987643031360833}
+  m_Father: {fileID: 8041762541845126191}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8760349424219869064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7643463822994207328}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7643463822994207328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8760349424219869064}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.003230183, y: 0.06886014, z: 0.052461818, w: 0.99624074}
+  m_LocalPosition: {x: -0.08890907, y: 0.000044980046, z: 0.031373978}
+  m_LocalScale: {x: 1, y: 0.9999996, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4915952189985333229}
+  m_Father: {fileID: 3039665017250072957}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8947727820981394770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3624517553882837766}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ R Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3624517553882837766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947727820981394770}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000016057319, y: -0.00000001364741, z: -0.080863014,
+    w: 0.99672526}
+  m_LocalPosition: {x: -0.031297073, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5666198761042618769}
+  m_Father: {fileID: 274614638226265987}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9181640198283863950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3844310256200113741}
+  m_Layer: 6
+  m_Name: SkeletonKnight_ L Finger32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3844310256200113741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9181640198283863950}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001416352, y: 0.0000000039167833, z: -0.116402075,
+    w: 0.9932022}
+  m_LocalPosition: {x: -0.03354805, y: 0, z: -0.000000019073486}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3500967564546346719}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9192423504079853431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3842329845710258948}
+  m_Layer: 6
+  m_Name: SkeletonKnight_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3842329845710258948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9192423504079853431}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000055430482, y: 0.00008754863, z: 0.70721304, w: 0.7070005}
+  m_LocalPosition: {x: -0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7579393396357541152}
+  m_Father: {fileID: 1428473087071621671}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

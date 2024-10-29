@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4147051742333362277}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -861, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7763762668613323442}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4971148193743905475
 MonoBehaviour:
@@ -53,7 +53,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 5243232819629785436
-      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -73,6 +74,7 @@ MonoBehaviour:
           m_Offset: {x: 0, y: 0, z: 0}
     - rid: 5243232819629785448
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
     - rid: 5243232819629785452
       type: {class: InputButtonMousePress, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
@@ -101,13 +103,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4901440568313111643}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -861, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7763762668613323442}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1584805338972401111
 MonoBehaviour:
@@ -144,12 +146,14 @@ MonoBehaviour:
           m_Offset: {x: 0, y: 0, z: 0}
     - rid: 5243232819629785412
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
     - rid: 5243232819629785416
       type: {class: InputButtonKeyboardPress, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Key: 1
     - rid: 5243232819629785423
-      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -186,7 +190,6 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6518684161526259054}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -286,7 +289,6 @@ RectTransform:
   m_Children:
   - {fileID: 1692598263771202612}
   m_Father: {fileID: 7763762668613323442}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -395,7 +397,6 @@ RectTransform:
   m_Children:
   - {fileID: 7763762668418715982}
   m_Father: {fileID: 1343406261824978537}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -479,13 +480,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7680138992679343786}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -861, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7763762668613323442}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4379127296163396135
 MonoBehaviour:
@@ -522,12 +523,15 @@ MonoBehaviour:
           m_Offset: {x: 0, y: 0, z: 0}
     - rid: 5243232819629785461
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
     - rid: 5243232819629785465
-      type: {class: InputValueButtonGamepadPress, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      type: {class: InputValueButtonGamepadPress, ns: GameCreator.Runtime.Common,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Button: 4
     - rid: 5243232819629785475
-      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
@@ -564,7 +568,6 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6774675896008954862}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -670,7 +673,6 @@ RectTransform:
   - {fileID: 687035959198300771}
   - {fileID: 2923315869448496032}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -809,7 +811,7 @@ Animator:
   m_GameObject: {fileID: 7763762668613323443}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1dbb7457830a2440c91a78ef451a01d8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2d01136c8767f49a59db2090f28e61ac, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -864,7 +866,6 @@ RectTransform:
   m_Children:
   - {fileID: 6774675896008954862}
   m_Father: {fileID: 7763762668613323442}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

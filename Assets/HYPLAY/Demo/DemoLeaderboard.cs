@@ -15,16 +15,16 @@ namespace HYPLAY.Demo
         [SerializeField] private HyplayLeaderboard.OrderBy orderBy;
         [SerializeField] private TextMeshProUGUI[] scoreText;
         [SerializeField] private TextMeshProUGUI myScore;
-
+        
+        private bool _pressed = false;
         public TextMeshProUGUI kills;
         public Animator KillsAnim;
-        private bool _pressed = false;
-        public GameObject Leaderboard;
         public float _score = 0;
-        
+        public GameObject Leaderboard;
+
         private void Awake()
         {
-            _score = -1;
+            _score = 0;
             //HyplayBridge.LoggedIn += GetScores;
             //if (HyplayBridge.IsLoggedIn)
             //    GetScores();
@@ -32,20 +32,10 @@ namespace HYPLAY.Demo
             //if (leaderboard == null)
             //    Debug.LogError("Please select a leaderboard to use");
         }
-        
-        public async void SubmitScore()
-        {
-            //if (Leaderboard != null)
-            //    Leaderboard.SetActive(true);
 
-            if (leaderboard == null) return;
-            var res = await leaderboard.PostScore(Mathf.RoundToInt(_score));
-            if (res.Success)
-                Debug.Log($"Successfully posted score {res.Data.score}");
-            else
-                Debug.LogError($"Update score failed: {res.Error}");
-            
-            GetScores();
+        private void Start()
+        {
+            _score = 0;
         }
         public void Get()
         {
@@ -56,12 +46,25 @@ namespace HYPLAY.Demo
             if (leaderboard == null)
                 Debug.LogError("Please select a leaderboard to use");
         }
+        public async void SubmitScore()
+        {
+            if (leaderboard == null) return;
+            var res = await leaderboard.PostScore(Mathf.RoundToInt(_score));
+            if (res.Success)
+                Debug.Log($"Successfully posted score {res.Data.score}");
+            else
+                Debug.LogError($"Update score failed: {res.Error}");
+            
+            GetScores();
+        }
+        
         private async void GetScores()
         {
-            if(Leaderboard != null)
-            Leaderboard.SetActive(true);
-
+            if (Leaderboard != null)
+                Leaderboard.SetActive(true);
+                
             if (leaderboard == null) return;
+            
             foreach (var text in scoreText)
                 text.gameObject.SetActive(false);
             
@@ -76,8 +79,17 @@ namespace HYPLAY.Demo
                 var score = scores.Data.scores[i];
                 var text = scoreText[i];
                 text.gameObject.SetActive(true);
-                text.text = $"{score.username} scored {score.score:F}";
+                text.text = $"{score.username}  <b> Kills: </b> {score.score}";
             }
+
+            var currentUserScore = await leaderboard.GetCurrentUserScore();
+            if (!currentUserScore.Success)
+            {
+                Debug.LogError($"Getting current user score failed: {currentUserScore.Error}");
+                return;
+            }
+            
+            Debug.Log($"Current user score: {currentUserScore.Data}");
         }
 
         private void Update()
@@ -88,8 +100,8 @@ namespace HYPLAY.Demo
             //else
             //    myScore.text = $"current score: {_score:0.00}";
 
-            if(kills != null)
-            kills.text = _score.ToString();
+            if (kills != null)
+                kills.text = _score.ToString();
         }
         public void AddScore()
         {
@@ -101,13 +113,14 @@ namespace HYPLAY.Demo
         }
         public void CheckScore()
         {
-          
+
+            _score += Time.deltaTime * multiplier * (_pressed ? 1 : -1);
             if (_score < 0)
                 _score = 0;
             else
                 myScore.text = $"current score: {_score:0.00}";
-           
-           
+
+
         }
 
         public void OnPointerDown(PointerEventData eventData)

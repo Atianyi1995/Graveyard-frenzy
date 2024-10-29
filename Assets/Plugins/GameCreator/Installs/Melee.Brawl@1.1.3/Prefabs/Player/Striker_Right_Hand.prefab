@@ -29,8 +29,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 5346527643459023216}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6104949015719115798
@@ -74,42 +73,3 @@ MonoBehaviour:
       data:
         m_Position: {x: 0, y: 0, z: 0}
         m_Radius: 0.35
---- !u!1001 &3742227367373548161
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 8582315484202181464}
-    m_Modifications:
-    - target: {fileID: 1887159343141374216, guid: a161a5b9378deee48b91af08f32dcc77,
-        type: 3}
-      propertyPath: m_Name
-      value: Trigger_Damage
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781352308692081649, guid: a161a5b9378deee48b91af08f32dcc77,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781352308692081649, guid: a161a5b9378deee48b91af08f32dcc77,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781352308692081649, guid: a161a5b9378deee48b91af08f32dcc77,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a161a5b9378deee48b91af08f32dcc77, type: 3}
---- !u!4 &5346527643459023216 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8781352308692081649, guid: a161a5b9378deee48b91af08f32dcc77,
-    type: 3}
-  m_PrefabInstance: {fileID: 3742227367373548161}
-  m_PrefabAsset: {fileID: 0}

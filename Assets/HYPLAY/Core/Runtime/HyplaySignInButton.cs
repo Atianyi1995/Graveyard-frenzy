@@ -1,17 +1,18 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 namespace HYPLAY.Core.Runtime
 {
     public class HyplaySignInButton : MonoBehaviour
     {
-        [SerializeField] private UnityEvent<HyplayUser> SignedIn;
+        [SerializeField] private UnityEvent<HyplayUser> LoggedIn;
         
         public async void SignIn()
         {
             var res = await HyplayBridge.LoginAndGetUserAsync();
             if (res.Success)
-                SignedIn?.Invoke(res.Data);
+                LoggedIn?.Invoke(res.Data);
             else
                 Debug.LogError($"Error signing in: {res.Error}");
             
@@ -21,7 +22,7 @@ namespace HYPLAY.Core.Runtime
         {
             var res = await HyplayBridge.GuestLoginAndReturnUserAsync();
             if (res.Success)
-                SignedIn?.Invoke(res.Data);
+                LoggedIn?.Invoke(res.Data);
             else
                 Debug.LogError($"Error signing in: {res.Error}");
             

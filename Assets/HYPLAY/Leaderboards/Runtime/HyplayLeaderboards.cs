@@ -21,7 +21,7 @@ namespace HYPLAY.Leaderboards.Runtime
         
         #if UNITY_EDITOR && NEWTONSOFT_JSON
         private const string LeaderboardBasePath = "Assets/HYPLAY/Leaderboards/Resources/leaderboard-";
-
+        
         public async Task CreateLeaderboard(string appId, string appSecret)
         {
             var body = new Dictionary<string, object>
@@ -31,12 +31,7 @@ namespace HYPLAY.Leaderboards.Runtime
             };
             using var req = UnityWebRequest.Post($"https://api.hyplay.com/v1/apps/{appId}/leaderboards",
                 HyplayJSON.Serialize(body)
-#if UNITY_2022_1_OR_NEWER
                 ,"application/json");
-#else
-                );
-                HyplayJSON.SetData(ref req, HyplayJSON.Serialize(body));
-#endif
             req.SetRequestHeader("x-app-authorization", appSecret);
 
             await req.SendWebRequest();

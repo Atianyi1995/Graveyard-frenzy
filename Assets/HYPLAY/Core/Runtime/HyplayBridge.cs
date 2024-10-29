@@ -17,10 +17,10 @@ namespace HYPLAY.Core.Runtime
     public static class HyplayBridge
     {
         public static event Action LoggedIn;
+        public static event Action LoggedOut;
         public static bool IsLoggedIn { get; private set; }
         
         private static HyplaySettings _settings;
-        private static HyplayReceiveMessage _oauth;
         private static HyplayUser _currentUser;
         public static HyplayUser CurrentUser => _currentUser;
         
@@ -41,15 +41,16 @@ namespace HYPLAY.Core.Runtime
             _settings = Resources.Load<HyplaySettings>("Settings");
             Application.deepLinkActivated += DeepLink;
             
-            #if UNITY_WEBGL // on web, grab the token from the url if it exists
+            #if UNITY_WEBGL
+            // on web, grab the token from the url if it exists
             DeepLink(Application.absoluteURL);
+            // early return if we're logged in
+            // we don't want to use the stored session if there's a user already signed in! 
+            if (IsLoggedIn)
+                return;
             #endif
-            _oauth = new GameObject("OAuthManager").AddComponent<HyplayReceiveMessage>();
-            _oauth.OnMessageReceived += GetToken;
-            Object.DontDestroyOnLoad(_oauth);
 
             IsLoggedIn = false;
-
             var storedToken = PlayerPrefs.GetString(CachedTokenKey);
             if (!string.IsNullOrWhiteSpace(storedToken))
             {
@@ -61,11 +62,7 @@ namespace HYPLAY.Core.Runtime
                     IsLoggedIn = true;
                     LoggedIn?.Invoke();
                 }
-                else
-                    IsLoggedIn = false;
             }
-            else
-                IsLoggedIn = false;
         }
 
         public static async Task WaitForUserLoggedIn()
@@ -78,23 +75,27 @@ namespace HYPLAY.Core.Runtime
         {
             return _settings.Token;
         }
-        
-        private static void GetToken(string obj)
-        {
-            _settings.SetToken(obj);
-            PlayerPrefs.SetString(CachedTokenKey, obj);
-            IsLoggedIn = true;
-            LoggedIn?.Invoke();
-        }
 
-        internal static void DeepLink(string obj)
+        internal static async void DeepLink(string obj)
         {
             if (!obj.Contains("token=")) return;
             var token = obj.Split("token=").Last();
+            SetToken(token);
+
+            var getUser = await GetUserAsync(false);
+            if (getUser.Success)
+                _currentUser = getUser.Data;
+        }
+
+        private static void SetToken(string token)
+        {
             _settings.SetToken(token);
-            PlayerPrefs.SetString(CachedTokenKey, token);
-            IsLoggedIn = true;
-            LoggedIn?.Invoke();
+            IsLoggedIn = !string.IsNullOrWhiteSpace(token);
+            if (IsLoggedIn)
+            {
+                PlayerPrefs.SetString(CachedTokenKey, token);
+                LoggedIn?.Invoke();
+            }
         }
 
         public static async void Login(Action onComplete)
@@ -129,34 +130,31 @@ namespace HYPLAY.Core.Runtime
             };
             using var req = UnityWebRequest.Post("https://api.hyplay.com/v1/sessions", 
                 HyplayJSON.Serialize(body)
-#if UNITY_2022_1_OR_NEWER
                 ,"application/json");
-#else
-                );
-                HyplayJSON.SetData(ref req, HyplayJSON.Serialize(body));
-#endif
+            
             await req.SendWebRequest();
 
-            if (req.responseCode == 401)
+            switch (req.responseCode)
             {
-                _currentUser = null;
-                IsLoggedIn = false;
-                return new HyplayResponse<HyplayUser>
-                {
-                    Data = null,
-                    Error = "Not logged in"
-                };
-            } else if (req.responseCode == 400)
-            {
-                _currentUser = null;
-                IsLoggedIn = false;
-                return new HyplayResponse<HyplayUser>
-                {
-                    Data = null,
-                    Error = req.downloadHandler.text
-                };
+                case 401:
+                    _currentUser = null;
+                    IsLoggedIn = false;
+                    return new HyplayResponse<HyplayUser>
+                    {
+                        Data = null,
+                        Error = "Not logged in"
+                    };
+                case 400:
+                    _currentUser = null;
+                    IsLoggedIn = false;
+                    return new HyplayResponse<HyplayUser>
+                    {
+                        Data = null,
+                        Error = req.downloadHandler.text
+                    };
             }
 
+            // there's no error, we're safe to continue
             var user = HyplayJSON.Deserialize<HyplayTokenRequest>(req.downloadHandler.text);
             
             _settings.SetToken(user.accessToken);
@@ -164,7 +162,7 @@ namespace HYPLAY.Core.Runtime
             IsLoggedIn = true;
             LoggedIn?.Invoke();
 
-            return await GetUserAsync();
+            return await GetUserAsync(false);
 
         }
 
@@ -178,12 +176,8 @@ namespace HYPLAY.Core.Runtime
             };
             using var req = UnityWebRequest.Post("https://api.hyplay.com/v1/sessions", 
                 HyplayJSON.Serialize(body)
-                #if UNITY_2022_1_OR_NEWER
                 ,"application/json");
-                #else
-                );
-                HyplayJSON.SetData(ref req, HyplayJSON.Serialize(body));
-                #endif
+            
             req.method = UnityWebRequest.kHttpVerbDELETE;
             if (SetAuthHeader(req))
             {
@@ -210,6 +204,7 @@ namespace HYPLAY.Core.Runtime
         {
             _currentUser = null;
             IsLoggedIn = false;
+            LoggedOut?.Invoke();
         }
         
         public static bool SetAuthHeader(UnityWebRequest req)
@@ -326,12 +321,7 @@ namespace HYPLAY.Core.Runtime
         {
              using var req = UnityWebRequest.Post($"https://api.hyplay.com/v1/apps/{_settings.Current.id}/states",
                 HyplayJSON.Serialize(state)
-#if UNITY_2022_1_OR_NEWER
                  ,"application/json");
-#else
-                );
-                HyplayJSON.SetData(ref req, HyplayJSON.Serialize(state));
-#endif
             
             if (!SetAuthHeader(req))
             {

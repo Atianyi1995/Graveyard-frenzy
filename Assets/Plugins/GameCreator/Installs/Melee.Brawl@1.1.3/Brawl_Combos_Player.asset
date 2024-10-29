@@ -323,7 +323,7 @@ MonoBehaviour:
     - rid: 4340017107664372553
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 1
+        m_Value: 2
     - rid: 4340017107664372554
       type: {class: ConditionMathCompareDistance, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -345,7 +345,7 @@ MonoBehaviour:
     - rid: 4340017107664372557
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 3
+        m_Value: 3.5
     - rid: 4340017107664372558
       type: {class: GetPositionSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 

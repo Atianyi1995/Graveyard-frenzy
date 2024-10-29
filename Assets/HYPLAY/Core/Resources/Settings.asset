@@ -17,7 +17,7 @@ MonoBehaviour:
   appDescription: 
   appUrl: 
   timeoutHours: 24
-  usePopup: 1
+  splashHasSignInButton: 1
   currentApp:
     id: 6820a7b8-03ea-4f2c-840f-1374813d09fd
     secretKey: app_sk_t1zNiZN4g0-vO_okvzRj74db8DWSsW376nsoV-0r2DsVbceNApMmnnTq9Yj6eVDO
@@ -27,8 +27,8 @@ MonoBehaviour:
     - https://html-classic.itch.zone/html/
     url: https://atianyi1995.github.io/GraveyardFrenzyWebBuild/
     iconImageAsset:
-      id: 424769ea-da5a-4c3d-83e5-7165741ed1f1
-      cdnUrl: https://assets.hyplay.com/cc6a6bec-4174-48fc-9b7a-561bd1c08126/3e1188184091c157ef0482e393854750-1728805794223.png
+      id: af91cce2-cb20-4218-aa8e-e23307669a39
+      cdnUrl: https://assets.hyplay.com/cc6a6bec-4174-48fc-9b7a-561bd1c08126/851ef70495c40f57eb94732034891600-1728510273326.png
     backgroundImageAsset:
-      id: a7a59d99-7ceb-46a9-b1d8-c3efd2a1bd27
-      cdnUrl: https://assets.hyplay.com/cc6a6bec-4174-48fc-9b7a-561bd1c08126/197620e3f86b64f77826b3fda62b4dc3-1728478976314.jpg
+      id: 6fe0f81c-822d-4de2-8b7d-75d2f0a15bc2
+      cdnUrl: https://assets.hyplay.com/cc6a6bec-4174-48fc-9b7a-561bd1c08126/7acf2454ed9efcc4531a5a2efb0601af-1728949060624.jpg

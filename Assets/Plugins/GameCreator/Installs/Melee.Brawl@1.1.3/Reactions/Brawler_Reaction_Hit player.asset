@@ -234,8 +234,8 @@ MonoBehaviour:
             - rid: 368440016025158270
         m_AvatarMask: {fileID: 0}
         m_CancelTime:
-          m_IsEnabled: 0
-          m_Value: 0.5
+          m_IsEnabled: 1
+          m_Value: 0.6
         m_Rotation: 0
         m_Gravity: 1
         m_Animations:
@@ -260,7 +260,7 @@ MonoBehaviour:
         m_AvatarMask: {fileID: 0}
         m_CancelTime:
           m_IsEnabled: 1
-          m_Value: 0.5
+          m_Value: 0.8
         m_Rotation: 0
         m_Gravity: 1
         m_Animations:
@@ -283,7 +283,7 @@ MonoBehaviour:
         m_AvatarMask: {fileID: 0}
         m_CancelTime:
           m_IsEnabled: 1
-          m_Value: 0.5
+          m_Value: 0.8
         m_Rotation: 0
         m_Gravity: 1
         m_Animations:
@@ -306,7 +306,7 @@ MonoBehaviour:
         m_AvatarMask: {fileID: 0}
         m_CancelTime:
           m_IsEnabled: 1
-          m_Value: 0.5
+          m_Value: 0.8
         m_Rotation: 0
         m_Gravity: 1
         m_Animations:
@@ -329,7 +329,7 @@ MonoBehaviour:
         m_AvatarMask: {fileID: 0}
         m_CancelTime:
           m_IsEnabled: 1
-          m_Value: 0.3
+          m_Value: 0.6
         m_Rotation: 0
         m_Gravity: 1
         m_Animations:
@@ -353,8 +353,8 @@ MonoBehaviour:
             - rid: 368440016025158272
         m_AvatarMask: {fileID: 0}
         m_CancelTime:
-          m_IsEnabled: 0
-          m_Value: 0.5
+          m_IsEnabled: 1
+          m_Value: 0.6
         m_Rotation: 0
         m_Gravity: 1
         m_Animations:
@@ -376,8 +376,8 @@ MonoBehaviour:
             - rid: 368440016025158276
         m_AvatarMask: {fileID: 0}
         m_CancelTime:
-          m_IsEnabled: 0
-          m_Value: 0.5
+          m_IsEnabled: 1
+          m_Value: 0.6
         m_Rotation: 0
         m_Gravity: 1
         m_Animations:

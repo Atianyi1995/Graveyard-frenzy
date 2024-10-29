@@ -18,37 +18,18 @@ namespace HYPLAY.Demo
         {
             HyplayBridge.LoggedIn += OnLoggedIn;
             if (HyplayBridge.IsLoggedIn)
+            {
                 OnLoggedIn();
+            }
         }
 
         private async void OnLoggedIn()
         {
-            if(signInSplash != null)
-            {
-                signInSplash.alpha = 0;
-                signInSplash.blocksRaycasts = false;
-            }
-           
+            signInSplash.alpha = 0;
+            signInSplash.blocksRaycasts = false;
             var res = await HyplayBridge.GetUserAsync();
             if (res.Success)
                 text.text = $"Welcome {res.Data.Username}";
-
-
-            Dictionary<string, bool> _achievements = new()
-            {
-                { "test achievement 1", false },
-                { "test achievement 2", false },
-            };
-
-            var state = new HyplayAppState<Dictionary<string, bool>>
-            {
-                Key = "achievements",
-                ProtectedState = _achievements
-            };
-            await HyplayBridge.SetState(state);
-
-            var foundState = (await HyplayBridge.GetState<HyplayAppState<Dictionary<string, bool>>>("achievements")).Data.ProtectedState;
-            _achievements = foundState.ProtectedState;
         }
     }
 }

@@ -108,8 +108,9 @@ namespace UnityEditor.Hyplay
             var expireTime = rootElement.Q<PropertyField>("ExpireTime");
             expireTime.BindProperty(settings.FindProperty("timeoutHours"));
             
-            var usePopup = rootElement.Q<PropertyField>("UsePopup");
-            usePopup.BindProperty(settings.FindProperty("usePopup"));
+            
+            var splashSignIn = rootElement.Q<PropertyField>("SplashSignIn");
+            splashSignIn.BindProperty(settings.FindProperty("splashHasSignInButton"));
             
             rootElement.Add(_appList);
             _createAppStatus = _root.Q<Label>("AppStatus");
@@ -364,13 +365,8 @@ namespace UnityEditor.Hyplay
                     { "url", _appUrl.stringValue }
                 };
 
-                #if UNITY_2022_1_OR_NEWER
                 using var req = UnityWebRequest.Post("https://api.hyplay.com/v1/apps", HyplayJSON.Serialize(body), "application/json");
-                #else
-                using var req = UnityWebRequest.Post("https://api.hyplay.com/v1/apps", "");
-                HyplayJSON.SetData(ref req, HyplayJSON.Serialize(body));
-                #endif
-                
+                 
                 req.SetRequestHeader("x-authorization", _settings.AccessToken);
                 await req.SendWebRequest();
 
@@ -458,7 +454,6 @@ namespace UnityEditor.Hyplay
                 Debug.LogError("No user access token found, please set your access token");
                 return;
             }
-            Debug.Log("Setting it to the first app");
             
             var apps = await FindApps();
             if (apps.Count > 0)

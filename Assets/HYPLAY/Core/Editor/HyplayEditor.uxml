@@ -9,7 +9,7 @@
             <uie:PropertyField name="AccessToken" />
             <uie:PropertyField name="DevToken" />
             <uie:PropertyField name="ExpireTime" />
-            <uie:PropertyField name="UsePopup" />
+            <uie:PropertyField name="SplashSignIn" />
             <ui:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
             <ui:VisualElement style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;">
                 <ui:Button text="Get Access Token" name="GetAccessToken" class="hyplay-button" />
@@ -50,6 +50,6 @@
             <uie:PropertyField name="AppRedirectURIs" />
             <ui:Button text="Update This App" name="UpdateApp" class="hyplay-button" />
         </ui:VisualElement>
-        <ui:Label text="v1.0.6" enable-rich-text="false" style="-unity-text-align: lower-right; opacity: 0.5; flex-grow: 1; padding-left: 5px; padding-bottom: 5px; padding-right: 5px; padding-top: 5px;" />
+        <ui:Label text="v1.0.8" enable-rich-text="false" style="-unity-text-align: lower-right; opacity: 0.5; flex-grow: 1; padding-left: 5px; padding-bottom: 5px; padding-right: 5px; padding-top: 5px;" />
     </ui:VisualElement>
 </ui:UXML>

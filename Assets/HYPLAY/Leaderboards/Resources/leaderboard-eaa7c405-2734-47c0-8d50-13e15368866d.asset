@@ -16,3 +16,4 @@ MonoBehaviour:
   name: Graveyard Frenzy Highscore
   description: Top graveyard Frenzy Kills
   secretKey: leaderboard_zv6Uu5KlX__n6dkjN0vHdpSghcsl5OYJAjdr_Rw6qHF0ML9syShKL1hgewQp6gUR
+  scoreType: 0

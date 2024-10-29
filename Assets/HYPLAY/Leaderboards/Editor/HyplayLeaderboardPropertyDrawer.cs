@@ -77,7 +77,9 @@ namespace HYPLAY.Leaderboards
                     position.width, EditorGUIUtility.singleLineHeight);
                 var secretKeyRect = new Rect(position.x, idRect.y + EditorGUIUtility.singleLineHeight + 5,
                     position.width, EditorGUIUtility.singleLineHeight);
-                var buttonRect = new Rect(position.x, secretKeyRect.y + EditorGUIUtility.singleLineHeight + 10,
+                var scoreTypeRect = new Rect(position.x, secretKeyRect.y + EditorGUIUtility.singleLineHeight + 5,
+                    position.width, EditorGUIUtility.singleLineHeight);
+                var buttonRect = new Rect(position.x, scoreTypeRect.y + EditorGUIUtility.singleLineHeight + 10,
                     position.width, EditorGUIUtility.singleLineHeight);
 
                 // Find properties
@@ -85,9 +87,10 @@ namespace HYPLAY.Leaderboards
                 var descriptionProperty = serializedObject.FindProperty("description");
                 var idProperty = serializedObject.FindProperty("id");
                 var secretKeyProperty = serializedObject.FindProperty("secretKey");
+                var scoreTypeProperty = serializedObject.FindProperty("scoreType");
 
                 // Draw fields
-                EditorGUI.BeginChangeCheck(); // Start checking for changes
+                EditorGUI.BeginChangeCheck();
                 EditorGUI.PropertyField(nameRect, nameProperty, new GUIContent("Name"));
                 EditorGUI.PropertyField(descriptionRect, descriptionProperty, new GUIContent("Description"));
                 if (EditorGUI.EndChangeCheck()) // End checking and update flag
@@ -96,6 +99,11 @@ namespace HYPLAY.Leaderboards
                     serializedObject.ApplyModifiedProperties(); // Apply changes immediately
                 }
 
+                EditorGUI.BeginChangeCheck();
+                EditorGUI.PropertyField(scoreTypeRect, scoreTypeProperty, new GUIContent("Score Type"));
+                if (EditorGUI.EndChangeCheck())
+                    serializedObject.ApplyModifiedProperties(); // Apply changes immediately
+            
                 EditorGUI.BeginDisabledGroup(true); // Disable the following fields
                 EditorGUI.PropertyField(idRect, idProperty, new GUIContent("ID"));
                 EditorGUI.PropertyField(secretKeyRect, secretKeyProperty, new GUIContent("Secret Key"));
@@ -129,7 +137,7 @@ namespace HYPLAY.Leaderboards
             if (property.serializedObject.targetObject is HyplayLeaderboards)
             {
                 // Adjust height based on the number of fields and button visibility
-                float height = EditorGUIUtility.singleLineHeight * 4 + 20; // 5 fields + spacing
+                float height = EditorGUIUtility.singleLineHeight * 5 + 20; // 5 fields + spacing
                 if (hasChanges)
                 {
                     height += EditorGUIUtility.singleLineHeight + 10; // Add button height + spacing
